@@ -1,0 +1,21 @@
+hi
+  Hi, I am an E-Chenneling chat-bot, are you a new user?
+no
+  Provide the username...
+username is harry
+  Provide the password...
+password is e2fk123nf#
+  Loggged in successfully!!! How can I help you?
+I want to channel a doctor
+  Can you specify the specialization?
+Cardiologist
+  Can you provide your city (Colombo) or zip-code (00100)?Can you provide your city (Colombo) or zip-code (00100)?
+Colombo
+  Selection
+  Can you provide the patient's name (eg: Mary)?
+Yashikaran
+  Can you provide your credit card number (eg: 1111222233334444)?
+***************
+  Can you provide your cvv code (eg: 002)?
+***
+  Success!!! Successfully made appointment, thankyou!!!

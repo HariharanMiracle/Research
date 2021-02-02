@@ -1,0 +1,25 @@
+Your input ->  hi
+Hi, I am an E-Channeling chat-bot, if you need to know about specialization or first aid tip, you can ask me. Else Are you a new user?
+
+Your input ->  nope
+Provide the username...
+
+Your input ->  username is hariharan
+Provide the password...
+
+Your input ->  password is e2fk123nf#
+Loggged in successfully!!! How can I help you?
+
+Your input ->  I need to channel Dr Vino
+? Here is a Vino near you:  Type out your own message...
+
+Your input ->  number 1
+Can you provide the patient's name (eg: Mary)?
+
+Your input ->  Hariharan
+Can you provide your credit card number (eg: 1111222233334444)?
+
+Can you provide your cvv code (eg: 002)?
+Your input ->  002
+
+Success!!! Successfully made appointment, thankyou!!!

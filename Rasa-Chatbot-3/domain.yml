@@ -1,0 +1,85 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - thanks
+  - out_of_scope
+  - neutral
+  - bot_challenge
+  - search_provider
+  - inform
+  - search_provider_specialization_location
+
+entities:
+- specialization
+- location
+- facility
+
+slots:
+  specialization:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  appointmentSlotId:
+    type: unfeaturized
+
+actions:
+- utter_greet
+- utter_select_option
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_noworries
+- utter_out_of_scope
+- utter_pardon_response
+- utter_ask_specialization
+- utter_ask_location
+
+forms:
+- chat_1_doctor_search_form
+
+responses:
+  utter_greet:
+  - text: "Hi, I am an E-Chenneling chat-bot, I can help you to make make an appointment. How can I help you?"
+
+  utter_select_option:
+  - text: "Select one of the options to continue:"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  - text: "Have a good day."
+  - text: "Catch you later."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa and my master is Hariharan."
+
+  utter_noworries:
+  - text: "My pleasure."
+  - text: "You are welcome!"
+
+  utter_out_of_scope:
+  - text: "Sorry! I dont know about it..."
+
+  utter_pardon_response:
+  - text: "Do you need any other service?"
+
+  utter_ask_specialization:
+  - text: "Can you specify the specialization?"
+
+  utter_ask_location:
+  - text: To find the nearest {specialization}, tell me your city or zipcode.

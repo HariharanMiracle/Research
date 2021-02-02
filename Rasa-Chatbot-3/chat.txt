@@ -1,0 +1,89 @@
+﻿#########################################################################
+#########################################################################
+                                chats
+
+#1 Hello
+        #2 Hello... I am an echanneling service provider how may I help you?
+#3 I need a doctor
+        #4 Can you specify the doctor specialization?
+#5 I want a cardiologist
+        #6 Can u please tell me your address
+#7 I am in Colombo
+        #8 Here are the doctors with their hospital name and available date, select 1 to make an appoinment
+        1 .................
+        2 .................
+        3 .................
+#9 Doctor1
+        #10 Can you provide the patient's name?
+#11 The name is Hariharan
+        #12 Well, can you provide the contact number (eg: 0771234567)?
+#13 Yes it is 0776318136
+        #14 Well, can you provide the email address?
+#15 Yes it is hariharanvasudevan@gmail.com
+        #16 Well, what is the nic no (eg: 998877665V)?
+#17 It is 991133992V
+        #18 Your credit card number?
+#19 It is 4545-5658-3654
+        #20 Your cvc code?
+#21 It is 002
+        #22 We have made the appointment.
+        Thanks alot for your booking
+#23 Thanks
+        # You are welcome
+
+
+…………………………..
+#1.hi
+
+
+#2
+Can i channel a docter ?
+Is there any surgent i can channel?
+I want to channel a docter.
+Are there any specialists i can channel?
+
+
+#4 I need a surgent
+I need a cesarean  surgent
+I need a kidney surgent 
+I want a dermatologist 
+I need a dermatologist for my acne problems
+
+
+#7 im in mahara
+I live in kadawatha
+Im in kiribathgoda 
+Im im yakkala
+Im in panadura
+Im in Ja ela
+Im in kirillawala
+Im in boralasgamuwa
+
+
+#9 Docter 1
+Docter 2
+Docter 3….
+
+
+#11 My name is hanar
+Im dakshika
+Name is sarath
+
+
+#13 
+07152525257
+Sure my number is 078654265
+Yes .it is 0786625252
+My phone number is 07655443322
+
+
+#15  sure .dakshika@gmail.com
+Yes .dakshika303@hotmaimcom
+It is sarath123@yahoo.com
+Fathima12@hotmail.com
+
+
+#17
+25252525V
+My nic is 7262626V
+Yes it is 686727282V

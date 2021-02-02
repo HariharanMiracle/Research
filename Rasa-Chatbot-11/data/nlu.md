@@ -1,0 +1,1670 @@
+<!-- This file is to train the nlu model -->
+<!-- This is the model which is used to deal with the user's language -->
+<!-- This model is already trained with the samples -->
+
+<!-- First aid request sample training -->
+## intent:firstaid
+- I have a [chest pain](cause) give me some first aid tips
+- I am having a [Cuts Sharp Cuts](cause)
+- I have [Electrocution](cause)
+- I got [Choking](cause)
+- Give me some first aid tips for [Eye Trauma](cause)
+- Provide some first aid tips for [Heart Struck](cause)
+- Give me some emergency tips for [Sharp Cuts](cause)
+- Show me some first aid tips for [Eye Trauma](cause)
+- Show me some emergency tips for [Acid Burn](cause)
+- Provide some emergency tips for [Burns Scalds](cause)
+- First aid tip for [Epilepsy](cause)
+- Emergency tip for [Dog Bite](cause)
+- Help me for [Cat Bite](cause)
+- Show me first aid tips for [Upper Limb Fractures](cause)
+- Show me emergency tips for [Fractures Crack](cause)
+- Give me first aid tips for [Burns Scalds](cause)
+- Give me emergency tips for [Heat Damage](cause)
+- I have [chest pain](cause)
+- [Fractures](cause)
+- [Heat Stroke Heart Struck](cause)
+- [Cuts Sharp Cuts](cause)
+- [Burns Scalds Heat Damage](cause)
+- [Heart Attack Chest Pain](cause)
+- [Electrocution](cause)
+- [Bites and Stings](cause)
+- [Choking](cause)
+- [Seizures Epilepsy](cause)
+- [Eye Trauma](cause)
+- [Fractures Crack](cause)
+- [Fractures Crack Wound](cause)
+- [Heat Stroke](cause)
+- [Heart Struck](cause)
+- [Cuts](cause)
+- [Sharp Cuts](cause)
+- [Burns Scalds](cause)
+- [Heat Damage](cause)
+- [Chest Pain](cause)
+- [chest Pain](cause)
+- [Heart Attack](cause)
+- [Bites](cause)
+- [Stings](cause)
+- [Seizures](cause)
+- [Epilepsy](cause)
+- [Fire Damage](cause)
+- [Acid Burn](cause)
+- [Alkalis Burn](cause)
+- [Moist Burn](cause)
+- [Moist Burn Hot Water Burn](cause)
+- [Moist Burn Hot Water Damage](cause)
+- [Moist Burn Hot Water Burn Hot Water Damge](cause)
+- [Tar Burn Hot Oil Burn](cause)
+- [Moist Burn Hot Water Burn Hot Water Damge Hot Oil Hot Tar](cause)
+- [Pain and Discomfort in the Chest Area](cause)
+- [Shortness Breath Stomach Discomfort Fainting Sweating Pain in the neck Jaws or Shoulders](cause)
+- [Major Cuts](cause)
+- [Upper Limb Fractures Limb Upper](cause)
+- [Upper Limb Fractures](cause)
+- [Fractures Limb Upper](cause)
+- [Dog Bite](cause)
+- [Cat Bite](cause)
+- [Dog Bite Cat Bite](cause)
+- [Cat Bite Dog Bite](cause)
+- [Liquid Eye Trauma Liquid](cause)
+- [Dry Heat Burn](cause)
+- [Dry Heat](cause)
+- [Burn Electric Burn](cause)
+- [Hot Meal Burn](cause)
+- [Burn Hot Meal Burn](cause)
+- [Cold Sweats Left Arm Pain](cause)
+- [Shortness of Breath Stomach Upset Dizziness Tiredness](cause)
+- [Razor Cuts Sharp Cut](cause)
+- [Razor Cuts](cause)
+- [Sharp Cuts](cause)
+- [Animal Claws Cuts](cause)
+- [Stab](cause)
+- [Needle Cuts](cause)
+- [Bayonet Cuts](cause)
+- [Knife Cuts](cause)
+- [Knife Bayonet](cause)
+- [Headache Dizziness Confusion Loss of Appetite Feeling Sick Excessive Sweating and Pale Clammy skin cramps in the arms legs and Stomach being very thirsty](cause)
+- [Headache Dizziness Confusion Loss of Appetite Feeling Sick Excessive Sweating and Pale Clammy skin cramps in the arms legs and Stomach fast breathing or pulse high temperature being very thirsty](cause)
+- [Pain at or near the seat of fracture Tenderness or discomfort on general pressure over the fractured area  Swelling about the seat of fracture Deformity of the limb The irregularity of the bone](cause)
+- [epilepsy unconsciousness muscle contractions and convulsions clouded awareness weakness loss of sensation strange feelings in the stomach fidgeting confusion sleepiness  ](cause)
+
+<!-- Greeting sample training -->
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- GM
+- Good morning
+- Good evening
+- Good afternoon
+- Hi again
+- Hi folks
+- Hi Mister
+- Hi pal!
+- Hi there
+- Greetings
+- Hello everybody
+- Hello is anybody there
+- Hello robot
+- Hello, good morning
+- Hello, good evening
+- Hello, good afternoon
+- hi
+- hey
+- hi bot
+- hey bot
+- hello
+- gM
+- good morning
+- good evening
+- good afternoon
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hello, good morning
+- hello, good evening
+- hello, good afternoon
+
+<!-- Affirm sample training -->
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- oki
+- kay
+- sure
+- Yes
+- Yes sure
+- Absolutely
+- For sure
+- Yes yes yes
+- Definitely
+- Yeah
+- Si
+- Ok
+- Okay
+- Oki
+- Kay
+- Sure
+
+<!-- Neutral sample training -->
+## intent:neutral
+- Oh! it is okay
+- Oh! that is fine
+- Oh! its okay
+- Oh! thats fine
+- its fine
+- it's fine
+- thats okay
+- that's okay
+- thats fine
+- that's fine
+- oh it's fine
+- oh it's okay
+- oh! it's fine
+- oh! it's okay
+- oh thats okay
+- oh that's okay
+- oh! thats okay
+- oh! that's okay
+
+<!-- Deny sample training -->
+## intent:deny
+- no
+- not today
+- no thanks
+- no thank you
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
+- nope
+- uhh no
+- No
+- Not today
+- No thanks
+- No thank you
+- Uh no
+- Noope
+- Do you have something else
+- No this does not work for me
+- Nope
+- Uhh no
+
+<!-- Out of scope sample training -->
+## intent:out_of_scope
+- please help with my ice cream it's dripping
+- Please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- No wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- someone call the police i think the bot died
+- Someone call the police i think the bot died
+- show me a picture of a chicken
+- Show me a picture of a chicken
+- neither
+- Neither
+- I want french cuisine
+- i want french cuisine
+- i am hungry
+- I am hungry
+- restaurant
+- Restaurant
+- can i be shown a gluten free restaurant
+- Can i be shown a gluten free restaurant
+- i don't care!!!!
+- I don't care!!!!
+- i do not care how are you
+- I do not care how are you
+- again?
+- Again?
+- oh wait i gave you my work email address can i change it?
+- Oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- Hang on let me find it
+- stop it, i do not care!!!
+- Stop it, i do not care!!!
+- how come?
+- How come?
+- I changed my mind
+- i changed my mind
+- what?
+- What?
+- did i break you
+- Did i break you
+- that link doesn't work!
+- That link doesn't work!
+- you already have that
+- You already have that
+- this is a really frustrating experience
+- This is a really frustrating experience
+- no stop
+- No stop
+- give me food
+- Give me food
+- i want food
+- I want food
+- Can I ask you questions first?
+- can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- Is it a wasteland full of broken robot parts?
+- can we keep chatting?
+- Can we keep chatting?
+- talk to me
+- Talk to me
+- who is your favourite robot?
+- Who is your favourite robot?
+- can you help me to build a bot
+- Can you help me to build a bot
+
+<!-- Goodbye sample training -->
+## intent:goodbye
+- Bye
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- See you
+- I'm off
+- C ya
+- Catch you later
+- Bye for now
+- Gotta go
+- See you later alligator
+- We'll speak soon
+- Good night
+- Goodnight
+- Have a nice day
+- Tataa
+- C u
+- bye
+- bye!
+- goodbye
+- see you later
+- bye bot
+- goodbye friend
+- see you
+- i'm off
+- c ya
+- catch you later
+- bye for now
+- gotta go
+- see you later alligator
+- we'll speak soon
+- good night
+- goodnight
+- have a nice day
+- tataa
+- c u
+
+<!-- Thanks sample training -->
+## intent:thanks
+- thanks
+- thank you
+- thank you so much
+- thanks bot
+- thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- tnq
+- tq
+- ty
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- Cheers
+- Cheers bro
+- Ok thanks!
+- Perfect thank you
+- Thanks a bunch for everything
+- Thanks for the help
+- Thanks a lot
+- Amazing, thanks
+- Cool, thanks
+- Cool thank you
+- Tnq
+- Tq
+- Ty
+
+<!-- Mood happy sample training -->
+## intent:mood_great
+- Perfect
+- Very good
+- Great
+- Amazing
+- Wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- Thats great
+- That's great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- i am feeling very good
+- i am great
+- i'm good
+- thats great
+- that's great
+
+<!-- Mood unhappy sample training -->
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- i'm sad
+- i am sad
+- im sad
+- i m sad
+- Sad
+- Very sad
+- Unhappy
+- Bad
+- Very bad
+- Awful
+- Terrible
+- Not very good
+- Extremely sad
+- So sad
+- I'm sad
+- I am sad
+- Im sad
+- I m sad
+- I am not well
+- I'm not well
+- I am ill
+- I'm ill
+
+<!-- Bot challenge sample training -->
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- Are you a bot?
+- Are you a human?
+- Am I talking to a bot?
+- Am I talking to a human?
+
+<!-- Searching based on some parameter sample training -->
+## intent:search_provider
+- Can i channel a [doctor](facility)?
+- Is there any [doctor](facility) i can channel?
+- I want to channel a [doctor](facility)
+- Are there any [doctors](facility) i can channel?
+- I need to channel a [doctor](facility)
+- Show me a [doctor](facility)
+- Can i channel a [dr](facility)?
+- Is there any [dr](facility) i can channel?
+- I want to channel a [dr](facility)
+- Are there any [dr](facility) i can channel?
+- I need to channel a [dr](facility)
+- Show me a [dr](facility)
+- Can i channel a [doc](facility)?
+- Is there any [doc](facility) i can channel?
+- I want to channel a [doc](facility)
+- Are there any [doc](facility) i can channel?
+- I need to channel a [doc](facility)
+- Show me a [doc](facility)
+- Can i channel a [Dr](facility)?
+- Is there any [Dr](facility) i can channel?
+- I want to channel a [Dr](facility)
+- Are there any [Dr](facility) i can channel?
+- I need to channel a [Dr](facility)
+- Show me a [Dr](facility)
+- can i channel a [doctor](facility)?
+- is there any [doctor](facility) i can channel?
+- i want to channel a [doctor](facility)
+- are there any [doctors](facility) i can channel?
+- i need to channel a [doctor](facility)
+- show me a [doctor](facility)
+- can i channel a [dr](facility)?
+- is there any [dr](facility) i can channel?
+- i want to channel a [dr](facility)
+- are there any [dr](facility) i can channel?
+- i need to channel a [dr](facility)
+- show me a [dr](facility)
+- can i channel a [doc](facility)?
+- is there any [doc](facility) i can channel?
+- i want to channel a [doc](facility)
+- are there any [doc](facility) i can channel?
+- i need to channel a [doc](facility)
+- show me a [doc](facility)
+- can i channel a [Dr](facility)?
+- is there any [Dr](facility) i can channel?
+- i want to channel a [Dr](facility)
+- are there any [Dr](facility) i can channel?
+- i need to channel a [Dr](facility)
+- show me a [Dr](facility)
+- i need a [doctor](facility)
+- I need a [doctor](facility)
+- i need a [Dr](facility)
+- I need a [Dr](facility)
+- i need a [doc](facility)
+- I need a [doc](facility)
+- i need a [dr](facility)
+- I need a [dr](facility)
+
+<!-- Imforming events or parameters -->
+<!-- Following are the events or parameters -->
+## intent:inform
+<!-- Specialization -->
+- [general](specialization)
+- [General](specialization)
+- [physician](specialization)
+- [Physician](specialization)
+- [general physician](specialization)
+- [General physician](specialization)
+- [pediatricians](specialization)
+- [Pediatricians](specialization)
+- [pediatrician](specialization)
+- [Pediatrician](specialization)
+- [geriatric](specialization)
+- [Geriatric](specialization)
+- [allergists](specialization)
+- [Allergists](specialization)
+- [allergist](specialization)
+- [Allergist](specialization)
+- [dermatologists](specialization)
+- [Dermatologists](specialization)
+- [dermatologist](specialization)
+- [Dermatologist](specialization)
+- [ophthalmologists](specialization)
+- [Ophthalmologists](specialization)
+- [ophthalmologist](specialization)
+- [Ophthalmologist](specialization)
+- [obstetrician](specialization)
+- [Obstetrician](specialization)
+- [gynecologists](specialization)
+- [Gynecologists](specialization)
+- [gynecologist](specialization)
+- [Gynecologist](specialization)
+- [cardiologists](specialization)
+- [Cardiologists](specialization)
+- [cardiologist](specialization)
+- [Cardiologist](specialization)
+- [endocrinologists](specialization)
+- [Endocrinologists](specialization)
+- [endocrinologist](specialization)
+- [Endocrinologist](specialization)
+- [gastroenterologists](specialization)
+- [Gastroenterologists](specialization)
+- [gastroenterologist](specialization)
+- [Gastroenterologist](specialization)
+- [nephrologists](specialization)
+- [Nephrologists](specialization)
+- [nephrologist](specialization)
+- [Nephrologist](specialization)
+- [urologists](specialization)
+- [Urologists](specialization)
+- [urologist](specialization)
+- [Urologist](specialization)
+- [pulmonologists](specialization)
+- [Pulmonologists](specialization)
+- [pulmonologist](specialization)
+- [Pulmonologist](specialization)
+- [otolaryngologists](specialization)
+- [Otolaryngologists](specialization)
+- [otolaryngologist](specialization)
+- [Otolaryngologist](specialization)
+- [neurologists](specialization)
+- [Neurologists](specialization)
+- [neurologist](specialization)
+- [Neurologist](specialization)
+- [psychiatrists](specialization)
+- [Psychiatrists](specialization)
+- [psychiatrist](specialization)
+- [Psychiatrist](specialization)
+- [oncologists](specialization)
+- [Oncologists](specialization)
+- [oncologist](specialization)
+- [Oncologist](specialization)
+- [Radiologists](specialization)
+- [radiologists](specialization)
+- [Radiologist](specialization)
+- [radiologist](specialization)
+- [Rheumatologists](specialization)
+- [rheumatologists](specialization)
+- [Rheumatologist](specialization)
+- [rheumatologist](specialization)
+- [General surgeons](specialization)
+- [general surgeons](specialization)
+- [Orthopedic surgeons](specialization)
+- [orthopedic surgeons](specialization)
+- [Cardiac surgeons](specialization)
+- [cardiac surgeons](specialization)
+- [Anesthesiologists](specialization)
+- [anesthesiologists](specialization)
+- [General surgeon](specialization)
+- [general surgeon](specialization)
+- [Orthopedic surgeon](specialization)
+- [orthopedic surgeon](specialization)
+- [Cardiac surgeon](specialization)
+- [cardiac surgeon](specialization)
+- [Anesthesiologist](specialization)
+- [anesthesiologist](specialization)
+- I need a [cardiologist](specialization)
+- I want a [cardiologist](specialization)
+- i need a [cardiologist](specialization)
+- i want a [cardiologist](specialization)
+- I want to channel a [cardiologist](specialization)
+- i want to channel a [cardiologist](specialization)
+- I need to channel a [cardiologist](specialization)
+- i need to channel a [cardiologist](specialization)
+- I need a doctor specialiazed as a [cardiologist](specialization)
+- i need a doctor specialiazed as a [cardiologist](specialization)
+- i want a doctor specialiazed as a [cardiologist](specialization)
+- I want a doctor specialiazed as a [cardiologist](specialization)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization)
+- he is a [cardiologist](specialization)
+- she is a [cardiologist](specialization)
+- He is a [cardiologist](specialization)
+- She is a [cardiologist](specialization)
+<!-- Location -->
+- [Colombo](location)
+- [Dehiwala](location)
+- [Mount Lavinia](location)
+- [Moratuwa](location)
+- [Sri Jayawardenapura Kotte](location)
+- [Negombo](location)
+- [Kandy](location)
+- [Vavuniya](location)
+- [Galle](location)
+- [Trincomalee](location)
+- [Batticaloa](location)
+- [Jaffna](location)
+- [Katunayake](location)
+- [Dambulla](location)
+- [Kolonnawa](location)
+- [Anuradhapura](location)
+- [Ratnapura](location)
+- [Kilinochchi](location)
+- [Mannar](location)
+- [Mullaitivu](location)
+- [Puttalam](location)
+- [Kurunegala](location)
+- [Gampaha](location)
+- [Kalutara](location)
+- [Polonnaruwa](location)
+- [Matale](location)
+- [Nuwara Eliya](location)
+- [Kegalle](location)
+- [Ampara](location)
+- [Badulla](location)
+- [Monaragala](location)
+- [Hambantota](location)
+- [Matara](location)
+- [Ratnapura](location)
+- [Ratnapura](location)
+- [Colombo Fort](location)
+- [Fort](location)
+- [Slave Island](location)
+- [Kolpity](location)
+- [Bambalapitiya](location)
+- [Narahenpita](location)
+- [Havelock Town](location)
+- [Kirulapona](location)
+- [Wellawatta](location)
+- [Pamankada](location)
+- [Cinnamon Garden](location)
+- [Borella](location)
+- [Dematagoda](location)
+- [Maradana](location)
+- [Panchikawatte](location)
+- [Pettah](location)
+- [Hulsfdorf](location)
+- [Bloemendhal](location)
+- [Grandpass](location)
+- [Mattakkuliya](location)
+- [Modara](location)
+- [Mutwal](location)
+- [Madampitiya](location)
+- [Kotahena](location)
+- [Kochchikade](location)
+- [Aluthkade](location)
+- [Pitakotuwa](location)
+- [Kurunduwatta](location)
+- [Kollupitiya](location)
+- [Kompanyaweediya](location)
+- [Kotuwa](location)
+- [Akarawita](location)
+- [Angoda](location)
+- [Arangala](location)
+- [Athurugiriya](location)
+- [Avissawella](location)
+- [Batawala](location)
+- [Battaramulla](location)
+- [Batugampola](location)
+- [Bope](location)
+- [Boralesgamuwa](location)
+- [Dedigamuwa](location)
+- [Deltara](location)
+- [Embuldeniya](location)
+- [Gongodawila](location)
+- [Habarakada](location)
+- [Handapangoda](location)
+- [Hanwella](location)
+- [Hewainna](location)
+- [Hiripitya](location)
+- [Hokandara](location)
+- [Homagama](location)
+- [Horagala](location)
+- [Kaduwela](location)
+- [Kahawala](location)
+- [Kalatuwawa](location)
+- [Kalubowila](location)
+- [Kiriwattuduwa](location)
+- [Kohuwala](location)
+- [Kosgama](location)
+- [Kotikawatta](location)
+- [Kottawa](location)
+- [Madapatha](location)
+- [Maharagama](location)
+- [Malabe](location)
+- [Meegoda](location)
+- [Mullegama](location)
+- [Mulleriyawa](location)
+- [Napawela](location)
+- [Nugegoda](location)
+- [Padukka](location)
+- [Pannipitiya](location)
+- [Piliyandala](location)
+- [Pita Kotte](location)
+- [Pitipana Homagama](location)
+- [Polgasowita](location)
+- [Puwakpitiya](location)
+- [Rajagiriya](location)
+- [Ranala](location)
+- [Ratmalana](location)
+- [Siddamulla](location)
+- [Talawatugoda](location)
+- [Tummodara](location)
+- [Sri Jayewardenepura](location)
+- [Waga](location)
+- [Watareka](location)
+- [Wijerama](location)
+- I am from [Colombo](location)
+- I am in [Colombo](location)
+- I m from [Colombo](location)
+- I m in [Colombo](location)
+- Im from [Colombo](location)
+- Im in [Colombo](location)
+- I'm from [Colombo](location)
+- I'm in [Colombo](location)
+- My zip code is [00100](location)
+- My zipcode is [00100](location)
+- My zip-code is [00100](location)
+- My location is [Colombo](location)
+- i am from [Colombo](location)
+- i am in [Colombo](location)
+- i m from [Colombo](location)
+- i m in [Colombo](location)
+- im from [Colombo](location)
+- im in [Colombo](location)
+- i'm from [Colombo](location)
+- i'm in [Colombo](location)
+- my zip code is [00100](location)
+- my zipcode is [00100](location)
+- my zip-code is [00100](location)
+- my location is [Colombo](location)
+<!-- patient name -->
+- [Hariharan](name)
+- [James](name)
+- [John](name)
+- [Robert](name)
+- [Michael](name)
+- [William](name)
+- [David](name)
+- [Richard](name)
+- [Joseph](name)
+- [Thomas](name)
+- [Charles](name)
+- [Daniel](name)
+- [Matthew](name)
+- [Anthony](name)
+- [Donald](name)
+- [Mark](name)
+- [Paul](name)
+- [Steven](name)
+- [Andrew](name)
+- [Kenneth](name)
+- [Emily](name)
+- [Donna](name)
+- [Kimberly](name)
+- [Ashley](name)
+- [Sandra](name)
+- [Dorothy](name)
+- [Betty](name)
+- [Lisa](name)
+- [Nancy](name)
+- [Karen](name)
+- [Sarah](name)
+- [Jessica](name)
+- [Susan](name)
+- [Barbara](name)
+- [Elizabeth](name)
+- [Linda](name)
+- [Jennifer](name)
+- [Patricia](name)
+- [Mary](name)
+- [Hanar](name)
+- [Dhivya](name)
+- I am [Hariharan](name)
+- My name is [Hariharan](name)
+- He is [Hariharan](name)
+- She is [Hanar](name)
+- Her name is [Hanar](name)
+- His name is [Hariharan](name)
+- The patient's name is [Hariharan](name)
+- The patient is [Hariharan](name)
+- Patient's name is [Hariharan](name)
+- Patient is [Hariharan](name)
+- i am [Hariharan](name)
+- my name is [Hariharan](name)
+- he is [Hariharan](name)
+- she is [Hanar](name)
+- her name is [Hanar](name)
+- his name is [Hariharan](name)
+- the patient's name is [Hariharan](name)
+- the patient is [Hariharan](name)
+- patient's name is [Hariharan](name)
+- patient is [Hariharan](name)
+<!-- phone number -->
+- My phone number is [0776318136](contact_number)
+- Phone number is [0776318136](contact_number)
+- The phone number is [0776318136](contact_number)
+- It is [0776318136](contact_number)
+- Its [0776318136](contact_number)
+- It's [0776318136](contact_number)
+- My contact number is [0776318136](contact_number)
+- Contact number is [0776318136](contact_number)
+- The contact number is [0776318136](contact_number)
+- my phone number is [0776318136](contact_number)
+- phone number is [0776318136](contact_number)
+- the phone number is [0776318136](contact_number)
+- it is [0776318136](contact_number)
+- its [0776318136](contact_number)
+- it's [0776318136](contact_number)
+- my contact number is [0776318136](contact_number)
+- contact number is [0776318136](contact_number)
+- the contact number is [0776318136](contact_number)
+- [0776318136](contact_number)
+- My phone number is [0779784296](contact_number)
+- Phone number is [0779784296](contact_number)
+- The phone number is [0779784296](contact_number)
+- It is [0779784296](contact_number)
+- Its [0779784296](contact_number)
+- It's [0779784296](contact_number)
+- My contact number is [0779784296](contact_number)
+- Contact number is [0779784296](contact_number)
+- The contact number is [0779784296](contact_number)
+- my phone number is [0779784296](contact_number)
+- phone number is [0779784296](contact_number)
+- the phone number is [0779784296](contact_number)
+- it is [0779784296](contact_number)
+- its [0779784296](contact_number)
+- it's [0779784296](contact_number)
+- my contact number is [0779784296](contact_number)
+- contact number is [0779784296](contact_number)
+- the contact number is [0779784296](contact_number)
+- [0779784296](contact_number)
+- My phone number is [0776754257](contact_number)
+- Phone number is [0776754257](contact_number)
+- The phone number is [0776754257](contact_number)
+- It is [0776754257](contact_number)
+- Its [0776754257](contact_number)
+- It's [0776754257](contact_number)
+- My contact number is [0776754257](contact_number)
+- Contact number is [0776754257](contact_number)
+- The contact number is [0776754257](contact_number)
+- my phone number is [0776754257](contact_number)
+- phone number is [0776754257](contact_number)
+- the phone number is [0776754257](contact_number)
+- it is [0776754257](contact_number)
+- its [0776754257](contact_number)
+- it's [0776754257](contact_number)
+- my contact number is [0776754257](contact_number)
+- contact number is [0776754257](contact_number)
+- the contact number is [0776754257](contact_number)
+- [0776754257](contact_number)
+- My phone number is [0112531422](contact_number)
+- Phone number is [0112531422](contact_number)
+- The phone number is [0112531422](contact_number)
+- It is [0112531422](contact_number)
+- Its [0112531422](contact_number)
+- It's [0112531422](contact_number)
+- My contact number is [0112531422](contact_number)
+- Contact number is [0112531422](contact_number)
+- The contact number is [0112531422](contact_number)
+- my phone number is [0112531422](contact_number)
+- phone number is [0112531422](contact_number)
+- the phone number is [0112531422](contact_number)
+- it is [0112531422](contact_number)
+- its [0112531422](contact_number)
+- it's [0112531422](contact_number)
+- my contact number is [0112531422](contact_number)
+- contact number is [0112531422](contact_number)
+- the contact number is [0112531422](contact_number)
+- [0112531422](contact_number)
+- My phone number is [0714569856](contact_number)
+- Phone number is [0714569856](contact_number)
+- The phone number is [0714569856](contact_number)
+- It is [0714569856](contact_number)
+- Its [0714569856](contact_number)
+- It's [0714569856](contact_number)
+- My contact number is [0714569856](contact_number)
+- Contact number is [0714569856](contact_number)
+- The contact number is [0714569856](contact_number)
+- my phone number is [0714569856](contact_number)
+- phone number is [0714569856](contact_number)
+- the phone number is [0714569856](contact_number)
+- it is [0714569856](contact_number)
+- its [0714569856](contact_number)
+- it's [0714569856](contact_number)
+- my contact number is [0714569856](contact_number)
+- contact number is [0714569856](contact_number)
+- the contact number is [0714569856](contact_number)
+- [0714569856](contact_number)
+- My phone number is [0725564825](contact_number)
+- Phone number is [0725564825](contact_number)
+- The phone number is [0725564825](contact_number)
+- It is [0725564825](contact_number)
+- Its [0725564825](contact_number)
+- It's [0725564825](contact_number)
+- My contact number is [0725564825](contact_number)
+- Contact number is [0725564825](contact_number)
+- The contact number is [0725564825](contact_number)
+- my phone number is [0725564825](contact_number)
+- phone number is [0725564825](contact_number)
+- the phone number is [0725564825](contact_number)
+- it is [0725564825](contact_number)
+- its [0725564825](contact_number)
+- it's [0725564825](contact_number)
+- my contact number is [0725564825](contact_number)
+- contact number is [0725564825](contact_number)
+- the contact number is [0725564825](contact_number)
+- [0725564825](contact_number)
+- My phone number is [0785656872](contact_number)
+- Phone number is [0785656872](contact_number)
+- The phone number is [0785656872](contact_number)
+- It is [0785656872](contact_number)
+- Its [0785656872](contact_number)
+- It's [0785656872](contact_number)
+- My contact number is [0785656872](contact_number)
+- Contact number is [0785656872](contact_number)
+- The contact number is [0785656872](contact_number)
+- my phone number is [0785656872](contact_number)
+- phone number is [0785656872](contact_number)
+- the phone number is [0785656872](contact_number)
+- it is [0785656872](contact_number)
+- its [0785656872](contact_number)
+- it's [0785656872](contact_number)
+- my contact number is [0785656872](contact_number)
+- contact number is [0785656872](contact_number)
+- the contact number is [0785656872](contact_number)
+- [0785656872](contact_number)
+- My phone number is [0365645982](contact_number)
+- Phone number is [0365645982](contact_number)
+- The phone number is [0365645982](contact_number)
+- It is [0365645982](contact_number)
+- Its [0365645982](contact_number)
+- It's [0365645982](contact_number)
+- My contact number is [0365645982](contact_number)
+- Contact number is [0365645982](contact_number)
+- The contact number is [0365645982](contact_number)
+- my phone number is [0365645982](contact_number)
+- phone number is [0365645982](contact_number)
+- the phone number is [0365645982](contact_number)
+- it is [0365645982](contact_number)
+- its [0365645982](contact_number)
+- it's [0365645982](contact_number)
+- my contact number is [0365645982](contact_number)
+- contact number is [0365645982](contact_number)
+- the contact number is [0365645982](contact_number)
+- [0365645982](contact_number)
+- My phone number is [0755523647](contact_number)
+- Phone number is [0755523647](contact_number)
+- The phone number is [0755523647](contact_number)
+- It is [0755523647](contact_number)
+- Its [0755523647](contact_number)
+- It's [0755523647](contact_number)
+- My contact number is [0755523647](contact_number)
+- Contact number is [0755523647](contact_number)
+- The contact number is [0755523647](contact_number)
+- my phone number is [0755523647](contact_number)
+- phone number is [0755523647](contact_number)
+- the phone number is [0755523647](contact_number)
+- it is [0755523647](contact_number)
+- its [0755523647](contact_number)
+- it's [0755523647](contact_number)
+- my contact number is [0755523647](contact_number)
+- contact number is [0755523647](contact_number)
+- the contact number is [0755523647](contact_number)
+- [0755523647](contact_number)
+- My phone number is [0364455875](contact_number)
+- Phone number is [0364455875](contact_number)
+- The phone number is [0364455875](contact_number)
+- It is [0364455875](contact_number)
+- Its [0364455875](contact_number)
+- It's [0364455875](contact_number)
+- My contact number is [0364455875](contact_number)
+- Contact number is [0364455875](contact_number)
+- The contact number is [0364455875](contact_number)
+- my phone number is [0364455875](contact_number)
+- phone number is [0364455875](contact_number)
+- the phone number is [0364455875](contact_number)
+- it is [0364455875](contact_number)
+- its [0364455875](contact_number)
+- it's [0364455875](contact_number)
+- my contact number is [0364455875](contact_number)
+- contact number is [0364455875](contact_number)
+- the contact number is [0364455875](contact_number)
+- [0364455875](contact_number)
+<!-- email address -->
+- The email address is [hariharansliit@gmail.com](email_address)
+- It is [hariharansliit@gmail.com](email_address)
+- My email address is [hariharansliit@gmail.com](email_address)
+- Email addres is [hariharansliit@gmail.com](email_address)
+- The email is [hariharansliit@gmail.com](email_address)
+- My email is [hariharansliit@gmail.com](email_address)
+- Email is [hariharansliit@gmail.com](email_address)
+- the email address is [hariharansliit@gmail.com](email_address)
+- it is [hariharansliit@gmail.com](email_address)
+- my email address is [hariharansliit@gmail.com](email_address)
+- email addres is [hariharansliit@gmail.com](email_address)
+- the email is [hariharansliit@gmail.com](email_address)
+- my email is [hariharansliit@gmail.com](email_address)
+- email is [hariharansliit@gmail.com](email_address)
+- [hariharansliit@gmail.com](email_address)
+- The email address is [ayesh@zenolk.com](email_address)
+- It is [ayesh@zenolk.com](email_address)
+- My email address is [ayesh@zenolk.com](email_address)
+- Email addres is [ayesh@zenolk.com](email_address)
+- The email is [ayesh@zenolk.com](email_address)
+- My email is [ayesh@zenolk.com](email_address)
+- Email is [ayesh@zenolk.com](email_address)
+- the email address is [ayesh@zenolk.com](email_address)
+- it is [ayesh@zenolk.com](email_address)
+- my email address is [ayesh@zenolk.com](email_address)
+- email addres is [ayesh@zenolk.com](email_address)
+- the email is [ayesh@zenolk.com](email_address)
+- my email is [ayesh@zenolk.com](email_address)
+- email is [ayesh@zenolk.com](email_address)
+- [ayesh@zenolk.com](email_address)
+- The email address is [ajith.samaratunga.sl@gmail.com](email_address)
+- It is [ajith.samaratunga.sl@gmail.com](email_address)
+- My email address is [ajith.samaratunga.sl@gmail.com](email_address)
+- Email addres is [ajith.samaratunga.sl@gmail.com](email_address)
+- The email is [ajith.samaratunga.sl@gmail.com](email_address)
+- My email is [ajith.samaratunga.sl@gmail.com](email_address)
+- Email is [ajith.samaratunga.sl@gmail.com](email_address)
+- the email address is [ajith.samaratunga.sl@gmail.com](email_address)
+- it is [ajith.samaratunga.sl@gmail.com](email_address)
+- my email address is [ajith.samaratunga.sl@gmail.com](email_address)
+- email addres is [ajith.samaratunga.sl@gmail.com](email_address)
+- the email is [ajith.samaratunga.sl@gmail.com](email_address)
+- my email is [ajith.samaratunga.sl@gmail.com](email_address)
+- email is [ajith.samaratunga.sl@gmail.com](email_address)
+- [ajith.samaratunga.sl@gmail.com](email_address)
+- The email address is [shalinitissera2@gmail.com](email_address)
+- It is [shalinitissera2@gmail.com](email_address)
+- My email address is [shalinitissera2@gmail.com](email_address)
+- Email addres is [shalinitissera2@gmail.com](email_address)
+- The email is [shalinitissera2@gmail.com](email_address)
+- My email is [shalinitissera2@gmail.com](email_address)
+- Email is [shalinitissera2@gmail.com](email_address)
+- the email address is [shalinitissera2@gmail.com](email_address)
+- it is [shalinitissera2@gmail.com](email_address)
+- my email address is [shalinitissera2@gmail.com](email_address)
+- email addres is [shalinitissera2@gmail.com](email_address)
+- the email is [shalinitissera2@gmail.com](email_address)
+- my email is [shalinitissera2@gmail.com](email_address)
+- email is [shalinitissera2@gmail.com](email_address)
+- [shalinitissera2@gmail.com](email_address)
+- The email address is [thajeevini19@gmail.com](email_address)
+- It is tha [jeevini19@gmail.com](email_address)
+- My email address is [thajeevini19@gmail.com](email_address)
+- Email addres is [thajeevini19@gmail.com](email_address)
+- The email is [thajeevini19@gmail.com](email_address)
+- My email is [thajeevini19@gmail.com](email_address)
+- Email is [thajeevini19@gmail.com](email_address)
+- the email address is [thajeevini19@gmail.com](email_address)
+- it is [thajeevini19@gmail.com](email_address)
+- my email address is [thajeevini19@gmail.com](email_address)
+- email addres is [thajeevini19@gmail.com](email_address)
+- the email is [thajeevini19@gmail.com](email_address)
+- my email is [thajeevini19@gmail.com](email_address)
+- email is [thajeevini19@gmail.com](email_address)
+- [thajeevini19@gmail.com](email_address)
+- The email address is [eugenevikash@yahoo.com](email_address)
+- It is [eugenevikash@yahoo.com](email_address)
+- My email address is [eugenevikash@yahoo.com](email_address)
+- Email addres is [eugenevikash@yahoo.com](email_address)
+- The email is [eugenevikash@yahoo.com](email_address)
+- My email is [eugenevikash@yahoo.com](email_address)
+- Email is [eugenevikash@yahoo.com](email_address)
+- the email address is [eugenevikash@yahoo.com](email_address)
+- it is [eugenevikash@yahoo.com](email_address)
+- my email address is [eugenevikash@yahoo.com](email_address)
+- email addres is [eugenevikash@yahoo.com](email_address)
+- the email is [eugenevikash@yahoo.com](email_address)
+- my email is [eugenevikash@yahoo.com](email_address)
+- email is [eugenevikash@yahoo.com](email_address)
+- [eugenevikash@yahoo.com](email_address)
+- The email address is [hariharansliit@gmail.com](email_address)
+- It is [hariharansliit@gmail.com](email_address)
+- My email address is [hariharansliit@gmail.com](email_address)
+- Email addres is [hariharansliit@gmail.com](email_address)
+- The email is [hariharansliit@gmail.com](email_address)
+- My email is [hariharansliit@gmail.com](email_address)
+- Email is [hariharansliit@gmail.com](email_address)
+- the email address is [hariharansliit@gmail.com](email_address)
+- it is [hariharansliit@gmail.com](email_address)
+- my email address is [hariharansliit@gmail.com](email_address)
+- email addres is [hariharansliit@gmail.com](email_address)
+- the email is [hariharansliit@gmail.com](email_address)
+- my email is [hariharansliit@gmail.com](email_address)
+- email is [hariharansliit@gmail.com](email_address)
+- [hariharansliit@gmail.com](email_address)
+- The email address is [janithmadushanka614@gmail.com](email_address)
+- It is [janithmadushanka614@gmail.com](email_address)
+- My email address is [janithmadushanka614@gmail.com](email_address)
+- Email addres is [janithmadushanka614@gmail.com](email_address)
+- The email is [janithmadushanka614@gmail.com](email_address)
+- My email is [janithmadushanka614@gmail.com](email_address)
+- Email is [janithmadushanka614@gmail.com](email_address)
+- the email address is [janithmadushanka614@gmail.com](email_address)
+- it is [janithmadushanka614@gmail.com](email_address)
+- my email address is [janithmadushanka614@gmail.com](email_address)
+- email addres is [janithmadushanka614@gmail.com](email_address)
+- the email is [janithmadushanka614@gmail.com](email_address)
+- my email is [janithmadushanka614@gmail.com](email_address)
+- email is [janithmadushanka614@gmail.com](email_address)
+- [janithmadushanka614@gmail.com](email_address)
+- The email address is [harithanasa@gmail.com](email_address)
+- It is [harithanasa@gmail.com](email_address)
+- My email address is [harithanasa@gmail.com](email_address)
+- Email addres is [harithanasa@gmail.com](email_address)
+- The email is [harithanasa@gmail.com](email_address)
+- My email is [harithanasa@gmail.com](email_address)
+- Email is [harithanasa@gmail.com](email_address)
+- the email address is [harithanasa@gmail.com](email_address)
+- it is [harithanasa@gmail.com](email_address)
+- my email address is [harithanasa@gmail.com](email_address)
+- email addres is [harithanasa@gmail.com](email_address)
+- the email is [harithanasa@gmail.com](email_address)
+- my email is [harithanasa@gmail.com](email_address)
+- email is [harithanasa@gmail.com](email_address)
+- [harithanasa@gmail.com](email_address)
+- The email address is [hanarshanya0@gmail.com](email_address)
+- It is [hanarshanya0@gmail.com](email_address)
+- My email address is [hanarshanya0@gmail.com](email_address)
+- Email addres is [hanarshanya0@gmail.com](email_address)
+- The email is [hanarshanya0@gmail.com](email_address)
+- My email is [hanarshanya0@gmail.com](email_address)
+- Email is [hanarshanya0@gmail.com](email_address)
+- the email address is [hanarshanya0@gmail.com](email_address)
+- it is [hanarshanya0@gmail.com](email_address)
+- my email address is [hanarshanya0@gmail.com](email_address)
+- email addres is [hanarshanya0@gmail.com](email_address)
+- the email is [hanarshanya0@gmail.com](email_address)
+- my email is [hanarshanya0@gmail.com](email_address)
+- email is [hanarshanya0@gmail.com](email_address)
+- [hanarshanya0@gmail.com](email_address)
+- The email address is [kevin@officialkevindavid.com](email_address)
+- It is [kevin@officialkevindavid.com](email_address)
+- My email address is [kevin@officialkevindavid.com](email_address)
+- Email addres is [kevin@officialkevindavid.com](email_address)
+- The email is [kevin@officialkevindavid.com](email_address)
+- My email is [kevin@officialkevindavid.com](email_address)
+- Email is [kevin@officialkevindavid.com](email_address)
+- the email address is [kevin@officialkevindavid.com](email_address)
+- it is [kevin@officialkevindavid.com](email_address)
+- my email address is [kevin@officialkevindavid.com](email_address)
+- email addres is [kevin@officialkevindavid.com](email_address)
+- the email is [kevin@officialkevindavid.com](email_address)
+- my email is [kevin@officialkevindavid.com](email_address)
+- email is [kevin@officialkevindavid.com](email_address)
+- [kevin@officialkevindavid.com](email_address)
+<!-- nic number -->
+- The NIC is [991133992V](nic)
+- It is [965564151V](nic)
+- My NIC is [698856522V](nic)
+- NIC is [66542256V](nic)
+- The nic is [564151196V](nic)
+- My nic is [959325518X](nic)
+- nic is [664451964X](nic)
+- the NIC is [553664512X](nic)
+- it is [9841632153V](nic)
+- my NIC is [912145352V](nic)
+- the nic is [632151265V](nic)
+- my nic is [982236123X](nic)
+- The NIC number is [991133992V](nic)
+- My NIC number is [991133992V](nic)
+- NIC number is [991133992V](nic)
+- The nic number is [991133992V](nic)
+- My nic number is [991133992V](nic)
+- nic number is [965564151V](nic)
+- the NIC number is [965564151V](nic)
+- my NIC number is [965564151V](nic)
+- the nic number is [965564151V](nic)
+- my nic number is [965564151V](nic)
+- The Nic is [698856522V](nic)
+- My Nic is [698856522V](nic)
+- Nic is [698856522V](nic)
+- The Nic is [564151196V](nic)
+- My Nic is [564151196V](nic)
+- the Nic is [564151196V](nic)
+- my Nic is [564151196V](nic)
+- the Nic is [959325518X](nic)
+- my Nic is [959325518X](nic)
+- The Nic number is [912145352V](nic)
+- My Nic number is [912145352V](nic)
+- Nic number is [912145352V](nic)
+- The Nic number is [912145352V](nic)
+- My Nic number is [912145352V](nic)
+- Nic number is [632151265V](nic)
+- the Nic number is [19991133992](nic)
+- my Nic number is [632151265V](nic)
+- the Nic number is [632151265V](nic)
+- my Nic number is [982236223X](nic)
+- [66542256V](nic)
+- [982236122X](nic)
+- [664451964X](nic)
+- [564151196V](nic)
+- [19991133992](nic)
+<!-- credit card -->
+- Credit card number is [2222444422224444](credit_card)
+- It is [2222444422224444](credit_card)
+- Its [2222444422224444](credit_card)
+- It's [2222444422224444](credit_card)
+- My credit card number is [2222444422224444](credit_card)
+- The credit card number is [2222444422224444](credit_card)
+- credit card number is [2222444422224444](credit_card)
+- it is [2222444422224444](credit_card)
+- its [2222444422224444](credit_card)
+- it's [2222444422224444](credit_card)
+- my credit card number is [2222444422224444](credit_card)
+- the credit card number is [2222444422224444](credit_card)
+- [2222444422224444](credit_card)
+- Credit card number is [56426987426598745](credit_card)
+- It is [56426987426598745](credit_card)
+- Its [56426987426598745](credit_card)
+- It's [56426987426598745](credit_card)
+- My credit card number is [56426987426598745](credit_card)
+- The credit card number is [56426987426598745](credit_card)
+- credit card number is [56426987426598745](credit_card)
+- it is [56426987426598745](credit_card)
+- its [56426987426598745](credit_card)
+- it's [56426987426598745](credit_card)
+- my credit card number is [56426987426598745](credit_card)
+- the credit card number is [56426987426598745](credit_card)
+- [56426987426598745](credit_card)
+- Credit card number is [6312875235555751](credit_card)
+- It is [6312875235555751](credit_card)
+- Its [6312875235555751](credit_card)
+- It's [6312875235555751](credit_card)
+- My credit card number is [6312875235555751](credit_card)
+- The credit card number is [6312875235555751](credit_card)
+- credit card number is [6312875235555751](credit_card)
+- it is [6312875235555751](credit_card)
+- its [6312875235555751](credit_card)
+- it's [6312875235555751](credit_card)
+- my credit card number is [6312875235555751](credit_card)
+- the credit card number is [6312875235555751](credit_card)
+- [6312875235555751](credit_card)
+- Credit card number is [9874552469858422](credit_card)
+- It is [9874552469858422](credit_card)
+- Its [9874552469858422](credit_card)
+- It's [9874552469858422](credit_card)
+- My credit card number is [9874552469858422](credit_card)
+- The credit card number is [9874552469858422](credit_card)
+- credit card number is [9874552469858422](credit_card)
+- it is [9874552469858422](credit_card)
+- its [9874552469858422](credit_card)
+- it's [9874552469858422](credit_card)
+- my credit card number is [9874552469858422](credit_card)
+- the credit card number is [9874552469858422](credit_card)
+- [9874552469858422](credit_card)
+- Credit card number is [3364454265456551](credit_card)
+- It is [3364454265456551](credit_card)
+- Its [3364454265456551](credit_card)
+- It's [3364454265456551](credit_card)
+- My credit card number is [3364454265456551](credit_card)
+- The credit card number is [3364454265456551](credit_card)
+- credit card number is [3364454265456551](credit_card)
+- it is [3364454265456551](credit_card)
+- its [3364454265456551](credit_card)
+- it's [3364454265456551](credit_card)
+- my credit card number is [3364454265456551](credit_card)
+- the credit card number is [3364454265456551](credit_card)
+- [3364454265456551](credit_card)
+- Credit card number is [7874987552367551](credit_card)
+- It is [7874987552367551](credit_card)
+- Its [7874987552367551](credit_card)
+- It's [7874987552367551](credit_card)
+- My credit card number is [7874987552367551](credit_card)
+- The credit card number is [7874987552367551](credit_card)
+- credit card number is [7874987552367551](credit_card)
+- it is [7874987552367551](credit_card)
+- its [7874987552367551](credit_card)
+- it's [7874987552367551](credit_card)
+- my credit card number is [7874987552367551](credit_card)
+- the credit card number is [7874987552367551](credit_card)
+- [7874987552367551](credit_card)
+- Credit card number is [6161616284851315](credit_card)
+- It is [6161616284851315](credit_card)
+- Its [6161616284851315](credit_card)
+- It's [6161616284851315](credit_card)
+- My credit card number is [6161616284851315](credit_card)
+- The credit card number is [6161616284851315](credit_card)
+- credit card number is [6161616284851315](credit_card)
+- it is [6161616284851315](credit_card)
+- its [6161616284851315](credit_card)
+- it's [6161616284851315](credit_card)
+- my credit card number is [6161616284851315](credit_card)
+- the credit card number is [6161616284851315](credit_card)
+- [6161616284851315](credit_card)
+- Credit card number is [9632545566541552](credit_card)
+- It is [9632545566541552](credit_card)
+- Its [9632545566541552](credit_card)
+- It's [9632545566541552](credit_card)
+- My credit card number is [9632545566541552](credit_card)
+- The credit card number is [9632545566541552](credit_card)
+- credit card number is [9632545566541552](credit_card)
+- it is [9632545566541552](credit_card)
+- its [9632545566541552](credit_card)
+- it's [9632545566541552](credit_card)
+- my credit card number is [9632545566541552](credit_card)
+- the credit card number is [9632545566541552](credit_card)
+- [9632545566541552](credit_card)
+- Credit card number is [8523554255785556](credit_card)
+- It is [8523554255785556](credit_card)
+- Its [8523554255785556](credit_card)
+- It's [8523554255785556](credit_card)
+- My credit card number is [8523554255785556](credit_card)
+- The credit card number is [8523554255785556](credit_card)
+- credit card number is [8523554255785556](credit_card)
+- it is [8523554255785556](credit_card)
+- its [8523554255785556](credit_card)
+- it's [8523554255785556](credit_card)
+- my credit card number is [8523554255785556](credit_card)
+- the credit card number is [8523554255785556](credit_card)
+- [8523554255785556](credit_card)
+- Credit card number is [8894511512236128](credit_card)
+- It is [8894511512236128](credit_card)
+- Its [8894511512236128](credit_card)
+- It's [8894511512236128](credit_card)
+- My credit card number is [8894511512236128](credit_card)
+- The credit card number is [8894511512236128](credit_card)
+- credit card number is [8894511512236128](credit_card)
+- it is [8894511512236128](credit_card)
+- its [8894511512236128](credit_card)
+- it's [8894511512236128](credit_card)
+- my credit card number is [8894511512236128](credit_card)
+- the credit card number is [8894511512236128](credit_card)
+- [8894511512236128](credit_card)
+<!-- cvv -->
+- My cvv code is [002](cvv)
+- My cvv is [002](cvv)
+- Cvv is [002](cvv)
+- Cvv code is [002](cvv)
+- The code is [002](cvv)
+- It is [002](cvv)
+- Its [002](cvv)
+- It's [002](cvv)
+- my cvv code is [002](cvv)
+- my cvv is [002](cvv)
+- cvv is [002](cvv)
+- cvv code is [002](cvv)
+- the code is [002](cvv)
+- it is [002](cvv)
+- its [002](cvv)
+- it's [002](cvv)
+- my CVV code is [002](cvv)
+- my CVV is [002](cvv)
+- CVV is [002](cvv)
+- CVV code is [002](cvv)
+- My CVV code is [002](cvv)
+- My CVV is [002](cvv)
+- my Cvv code is [002](cvv)
+- my Cvv is [002](cvv)
+- Cvv is [002](cvv)
+- Cvv code is [002](cvv)
+- My Cvv code is [002](cvv)
+- My Cvv is [002](cvv)
+- [002](cvv)
+- My cvv code is [850](cvv)
+- My cvv is [960](cvv)
+- Cvv is [752](cvv)
+- Cvv code is [632](cvv)
+- The code is [589](cvv)
+- It is [651](cvv)
+- Its [920](cvv)
+- It's [122](cvv)
+- my cvv code is [635](cvv)
+- my cvv is [695](cvv)
+- cvv is [984](cvv)
+- cvv code is [112](cvv)
+- the code is [330](cvv)
+- it is [036](cvv)
+- its [750](cvv)
+- it's [620](cvv)
+- my CVV code is [506](cvv)
+- my CVV is [420](cvv)
+- CVV is [985](cvv)
+- CVV code is [987](cvv)
+- My CVV code is [321](cvv)
+- My CVV is [654](cvv)
+- my Cvv code is [963](cvv)
+- my Cvv is [145](cvv)
+- Cvv is [143](cvv)
+- Cvv code is [365](cvv)
+- My Cvv code is [985](cvv)
+- My Cvv is [754](cvv)
+- [632](cvv)
+<!-- search doctor by name -->
+- I want a [doctor](facility) and the name is [Dhivya](name)
+- I need a [doctor](facility) and the name is [Dhivya](name)
+- Make an appointment to [doctor](facility) [Dhivya](name)
+- I want a [doctor](facility) and the name is [Hanar](name)
+- I need a [doctor](facility) and the name is [Hanar](name)
+- Make an appointment to [doctor](facility) [Hanar](name)
+- I want a [doctor](facility) and the name is [Janith](name)
+- I need a [doctor](facility) and the name is [Janith](name)
+- Make an appointment to [doctor](facility) [Janith](name)
+- I want a [doctor](facility) and the name is [Keerthana](name)
+- I need a [doctor](facility) and the name is [Keerthana](name)
+- Make an appointment to [doctor](facility) [Keerthana](name)
+- I want a [doctor](facility) and the name is [Hariharan](name)
+- I need a [doctor](facility) and the name is [Hariharan](name)
+- Make an appointment to [doctor](facility) [Hariharan](name)
+- I want a [doctor](facility) and the name is [Chamika](name)
+- I need a [doctor](facility) and the name is [Chamika](name)
+- Make an appointment to [doctor](facility) [Chamika](name)
+- I want a [doctor](facility) and the name is [Kalana](name)
+- I need a [doctor](facility) and the name is [Kalana](name)
+- Make an appointment to [doctor](facility) [Kalana](name)
+- I want a [doctor](facility) and the name is [Haroos](name)
+- I need a [doctor](facility) and the name is [Haroos](name)
+- Make an appointment to [doctor](facility) [Haroos](name)
+- I want a [doctor](facility) and the name is [Ganesh](name)
+- I need a [doctor](facility) and the name is [Ganesh](name)
+- Make an appointment to [doctor](facility) [Ganesh](name)
+- I want a [doctor](facility) and the name is [Sachini](name)
+- I need a [doctor](facility) and the name is [Sachini](name)
+- Make an appointment to [doctor](facility) [Sachini](name)
+- Can you make an appointment to [doctor](facility) [Dhivya](name)
+- Can you make an appointment to [doctor](facility) [Dhivya](name)?
+- I need to make an appointment to [doctor](facility) [Dhivya](name)
+- I want to make an appointment to [doctor](facility) [Dhivya](name)
+- I want to channel [doctor](facility) [Dhivya](name)
+- I need to channel [doctor](facility) [Dhivya](name)
+- Can you make an appointment to [doctor](facility) [Hanar](name)
+- Can you make an appointment to [doctor](facility) [Hanar](name)?
+- I need to make an appointment to [doctor](facility) [Hanar](name)
+- I want to make an appointment to [doctor](facility) [Hanar](name)
+- I want to channel [doctor](facility) [Hanar](name)
+- I need to channel [doctor](facility) [Hanar](name)
+- Can you make an appointment to [doctor](facility) [Janith](name)
+- Can you make an appointment to [doctor](facility) [Janith](name)?
+- I need to make an appointment to [doctor](facility) [Janith](name)
+- I want to make an appointment to [doctor](facility) [Janith](name)
+- I want to channel [doctor](facility) [Janith](name)
+- I need to channel [doctor](facility) [Janith](name)
+- Can you make an appointment to [doctor](facility) [Keerthana](name)
+- Can you make an appointment to [doctor](facility) [Keerthana](name)?
+- I need to make an appointment to [doctor](facility) [Keerthana](name)
+- I want to make an appointment to [doctor](facility) [Keerthana](name)
+- I want to channel [doctor](facility) [Keerthana](name)
+- I need to channel [doctor](facility) [Keerthana](name)
+- Can you make an appointment to [doctor](facility) [Hariharan](name)
+- Can you make an appointment to [doctor](facility) [Hariharan](name)?
+- I need to make an appointment to [doctor](facility) [Hariharan](name)
+- I want to make an appointment to [doctor](facility) [Hariharan](name)
+- I want to channel [doctor](facility) [Hariharan](name)
+- I need to channel [doctor](facility) [Hariharan](name)
+- Can you make an appointment to [doctor](facility) [Chamika](name)
+- Can you make an appointment to [doctor](facility) [Chamika](name)?
+- I need to make an appointment to [doctor](facility) [Chamika](name)
+- I want to make an appointment to [doctor](facility) [Chamika](name)
+- I want to channel [doctor](facility) [Chamika](name)
+- I need to channel [doctor](facility) [Chamika](name)
+- Can you make an appointment to [doctor](facility) [Kalana](name)
+- Can you make an appointment to [doctor](facility) [Kalana](name)?
+- I need to make an appointment to [doctor](facility) [Kalana](name)
+- I want to make an appointment to [doctor](facility) [Kalana](name)
+- I want to channel [doctor](facility) [Kalana](name)
+- I need to channel [doctor](facility) [Kalana](name)
+- Can you make an appointment to [doctor](facility) [Haroos](name)
+- Can you make an appointment to [doctor](facility) [Haroos](name)?
+- I need to make an appointment to [doctor](facility) [Haroos](name)
+- I want to make an appointment to [doctor](facility) [Haroos](name)
+- I want to channel [doctor](facility) [Haroos](name)
+- I need to channel [doctor](facility) [Haroos](name)
+- Can you make an appointment to [doctor](facility) [Ganesh](name)
+- Can you make an appointment to [doctor](facility) [Ganesh](name)?
+- I need to make an appointment to [doctor](facility) [Ganesh](name)
+- I want to make an appointment to [doctor](facility) [Ganesh](name)
+- I want to channel [doctor](facility) [Ganesh](name)
+- I need to channel [doctor](facility) [Ganesh](name)
+- Can you make an appointment to [doctor](facility) [Sachini](name)
+- Can you make an appointment to [doctor](facility) [Sachini](name)?
+- I need to make an appointment to [doctor](facility) [Sachini](name)
+- I want to make an appointment to [doctor](facility) [Sachini](name)
+- I want to channel [doctor](facility) [Sachini](name)
+- I need to channel [doctor](facility) [Sachini](name)
+- [Dhivya](name)
+- [Hanar](name)
+- [Janith](name)
+- [Keerthana](name)
+- [Hariharan](name)
+- [Chamika](name)
+- [Kalana](name)
+- [Haroos](name)
+- [Ganesh](name)
+- [Sachini](name)
+<!-- search doctors by hospital name -->
+- I want to channel a [doctor](facility) in [Nawaloka](hospitalName)
+- I need to channel a [doctor](facility) in [Durdans](hospitalName)
+- Show me [doctor](facility) from [Asia Hospital](hospitalName)
+- Show me some [doctor](facility) from [Asia Hospital](hospitalName)
+- Give me some [doctor](facility) from [Base Hospital](hospitalName)
+- List some [doctor](facility) from [Base Hospital](hospitalName)
+- I want to make an appointment to a [doctor](facility) from [PMCU](hospitalName)
+- I need to make an appointment to a [doctor](facility) from [DH Hospital](hospitalName)
+- [doctor](facility) from [MK Hospital](hospitalName)
+- Any [doctor](facility) from [Lakeside Adeventist](hospitalName)?
+- Who are the [doctor](facility) from [Apollo](hospitalName)?
+- [doctor](facility) in [CDEM](hospitalName)
+-[Nawaloka](hospitalName)
+-[Durdans](hospitalName)
+-[Asia Hospital](hospitalName)
+-[Base Hospital](hospitalName)
+-[PMCU](hospitalName)
+-[DH Hospital](hospitalName)
+-[MK Hospital](hospitalName)
+-[Lakeside Adeventist](hospitalName)
+-[Apollo](hospitalName)
+-[CDEM](hospitalName)
+<!-- both specialization and hospital -->
+- I want to channel a [cardiologist](specialization) in [Nawaloka](hospitalName)
+- I need to channel a [cardiologist](specialization) in [Durdans](hospitalName)
+- Show me [cardiologist](specialization) from [Asia Hospital](hospitalName)
+- Show me some [cardiologist](specialization) from [Asia Hospital](hospitalName)
+- List some [cardiologist](specialization) from [Asia Hospital](hospitalName)
+- Give me some [cardiologist](specialization) from [Base Hospital](hospitalName)
+- I want to make an appointment to a [cardiologist](specialization) from [PMCU](hospitalName)
+- I need to make an appointment to a [cardiologist](specialization) from [DH Hospital](hospitalName)
+- [cardiologist](specialization) from [MK Hospital](hospitalName)
+- Any [cardiologist](specialization) from [Lakeside Adeventist](hospitalName)?
+- Who are the [cardiologist](specialization) from [Apollo](hospitalName)?
+<!-- Username -->
+- My username is [darkRaven](username)
+- Username is [JollyGood](username)
+- username is [YakaKrypton](username)
+- my username is [kai](username)
+- the username is [phonemonal](username)
+- The username is [Alphablue](username)
+- user [alphanoob](username)
+- User [I_AM_MR.Bean](username)
+- the account's username is [whiteD3vil](username)
+- The account's username is [DarkD3vil](username)
+- the accounts username is [soulcoffin](username)
+- The accounts username is [ravenClaw](username)
+- The accounts name is [Hariharan](username)
+- the accounts name is [Hanar](username)
+- This accounts username is [dave](username) 
+- this accounts username is [klatvin](username) 
+- [Siva](username)
+- [flower](username)
+- [Angel](username)
+- [Jothi](username)
+- [Vasudevan](username)
+- [sharviesh](username)
+<!-- Password -->
+- Password is [e2fk123nf#](password)
+- password is [dark123nf#](password)
+- My password is [hari@2020](password)
+- my password is [m24welc0m3](password)
+- The password is [elenmusk](password)
+- the password is [qwerty654321](password)
+- the account's password is [whiteD3vil](password)
+- The account's password is [DarkD3vil](password)
+- the accounts password is [soulcoffin](password)
+- The accounts password is [ravenClaw](password)
+- This accounts username is [visky123](username) 
+- this accounts username is [nfsHari](username) 
+- the account password is [r3yM3st3r10](password)
+- The account password is [wicket3](password)
+- password [fraud420](password)
+- Password [110v3y0u](password)
+- [e2fkasa3nf#](password)
+- [sdsd1nfadsa](password)
+- [hasa20212](password)
+- [m2esAD0m3](password)
+- [Kqwdo646asd](password)
+<!-- symptoms -->
+<!-- - [fever](symptoms)
+- [cough](symptoms)
+- [stomach irritation](symptoms)
+- [vomiting](symptoms)
+- [headache](symptoms)
+- [red pimple](symptoms)
+- [face irritation](symptoms)
+- [itching](symptoms)
+- [sleepy](symptoms)
+- [stomach ache](symptoms)
+- [chest pain](symptoms)
+- [cold](symptoms)
+- [flu](symptoms)
+- [obesity](symptoms)
+- [rash](symptoms)
+- I have [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- I have [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- I have [headache](symptoms), [sleepy](symptoms) and [fever](symptoms)
+- Symptoms are [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- Symptoms are [face irritation](symptoms), [stomach ache](symptoms) and [red pimple](symptoms)
+- Symptoms are [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- My symptoms are [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- My symptoms are [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- My symptoms are [headache](symptoms), [sleepy](symptoms) and [fever](symptoms)
+- i have [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- i have [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- i have [headache](symptoms), [sleepy](symptoms) and [fever](symptoms)
+- symptoms are [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- symptoms are [face irritation](symptoms), [stomach ache](symptoms) and [red pimple](symptoms)
+- symptoms are [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- my symptoms are [cold](symptoms), [cough](symptoms) and [fever](symptoms)
+- my symptoms are [vomiting](symptoms), [chest pain](symptoms) and [stomach irritation](symptoms)
+- my symptoms are [flu](symptoms), [sleepy](symptoms) and [fever](symptoms)
+- Symptoms are [cough](symptoms) and [fever](symptoms)
+- I have [vomiting](symptoms), [chest pain](symptoms),  [headache](symptoms), [sleepy](symptoms) and [fever](symptoms)
+- My symptoms are [cold](symptoms), [rash](symptoms), [red pimple](symptoms) and [fever](symptoms)
+- symptoms are [cold](symptoms), [cough](symptoms), [obesity](symptoms), [sleepy](symptoms) and [vomiting](symptoms) and [fever](symptoms)
+- i have [fever](symptoms)
+- my symptoms are [fever](symptoms), [chest pain](symptoms), [cold](symptoms), [sleepy](symptoms) and [vomiting](symptoms) and [headache](symptoms) -->
+
+<!-- Regex function to match the user input sample training -->
+## regex:location
+- [0-9]{5}
+
+## regex:contact_number
+- [0-9]{10}
+
+## regex:cvv
+- ^[0-9]{3,4}$
+
+## regex:credit_card
+- [0-9]{16}
+
+## regex:email_address
+- (?:\w+@\w+\.\w+)
+
+## regex:nic
+- ^([0-9]{9}[x|X|v|V]|[0-9]{12})$
+
+## regex:name
+- [A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,20}$
+
+## regex:hospitalName
+- [A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,50}$
+
+## regex:username
+- [A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,30}$
+
+## regex:password
+[A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,30}$
+
+<!-- Synonyms sample training -->
+## synonym:doctor
+- doctors
+- doctor
+- dr
+- Dr
+- doc
+- Doctor
+- Doctors
+- Dr
+- Doc
+
+<!-- ## regex:symptoms
+- [A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,20}$ -->

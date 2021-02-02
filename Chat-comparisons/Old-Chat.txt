@@ -1,0 +1,21 @@
+Hello
+  Hi, I am an E-Chenneling chat-bot, I can help you to make an appointment. How can I help you?
+I want to channel a doctor
+  Can you specify the specialization?
+Cardiologist
+  Can you provide your city (Colombo) or zip-code (00100)?
+Colombo
+  ################# DOCTOR APPOINTMENT #################
+Can you provide the patient's name (eg: Mary)?
+  Hariharan
+Can you provide the contact number (eg: 0771234567)?
+  0776318136
+Can you provide the email address (eg: user@gmail.com)?
+  hariharansliit@gmail.com
+Can you provide your NIC number (eg: 123456789V or 199912365478)?
+  991133992V
+Can you provide your credit card number (eg: 1111222233334444)?
+   2222444422224444
+Can you provide your cvv code (eg: 002)?
+   002
+Success!!! Successfully made appointment, thankyou!!!

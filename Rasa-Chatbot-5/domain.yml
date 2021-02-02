@@ -1,0 +1,142 @@
+intents:
+  - greet
+  - affirm
+  - neutral
+  - deny
+  - out_of_scope
+  - goodbye
+  - thanks
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - search_provider
+  - inform
+
+entities:
+- facility
+- specialization
+- location
+- patient_name
+- contact_number
+- email_address
+- nic
+- credit_card
+- cvv
+
+slots:
+  specialization:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  appointmentSlotId:
+    type: unfeaturized
+  patient_name:
+    type: unfeaturized
+  contact_number:
+    type: unfeaturized
+  email_address:
+    type: unfeaturized
+  nic:
+    type: unfeaturized
+  credit_card:
+    type: unfeaturized
+  cvv:
+    type: unfeaturized
+  charge:
+    type: unfeaturized
+  doctor_name:
+    type: unfeaturized
+  doctor_reg_no:
+    type: unfeaturized
+
+actions:
+- utter_greet
+- utter_select_option
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_noworries
+- utter_out_of_scope
+- utter_pardon_response
+- utter_test
+- utter_ask_specialization
+- utter_ask_location
+- utter_ask_patient_name
+- utter_ask_contact_number
+- utter_ask_email_address
+- utter_ask_nic
+- utter_ask_credit_card
+- utter_ask_cvv
+- utter_select_hospital_of_a_doctor
+- utter_select_hospital
+
+forms:
+- chat_1_doctor_search_form
+- user_details_form
+
+responses:
+  utter_greet:
+  - text: "Hi, I am an E-Chenneling chat-bot, I can help you to make make an appointment. How can I help you?"
+
+  utter_select_option:
+  - text: "Select one of the options to continue:"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Thanks alot for using our service"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_noworries:
+  - text: "You are welcome!"
+
+  utter_out_of_scope:
+  - text: "Sorry! I dont know about it..."
+
+  utter_pardon_response:
+  - text: "Do you need any other service?"
+
+  utter_test:
+  - text: "Testing..."
+
+  utter_ask_specialization:
+  - text: "Can you specify the specialization?"
+
+  utter_ask_location:
+  - text: "Can you provide your city (Colombo) or zip-code (00100)?"
+
+  utter_ask_patient_name:
+  - text: "Can you provide the patient's name (eg: Mary)?"
+
+  utter_ask_contact_number:
+  - text: "Can you provide the contact number (eg: 0771234567)?"
+
+  utter_ask_email_address:
+  - text: "Can you provide the email address (eg: user@gmail.com)?"
+
+  utter_ask_nic:
+  - text: "Can you provide your NIC number (eg: 123456789V or 199912365478)?"
+
+  utter_ask_credit_card:
+  - text: "Can you provide your credit card number number (eg: 1111222233334444)?"
+
+  utter_ask_cvv:
+  - text: "Can you provide your cvv code (eg: 002)?"
+
+  utter_select_hospital_of_a_doctor:
+  - text: "Well, Dr.Anantharaj (id: med154982) is attending to the following hospitals. Please select one: "
+
+  utter_select_hospital:
+  - text: "Well select an hospital: "

@@ -1,0 +1,97 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - inform
+  - search_provider_specialization_location
+  - thanks
+  - out_of_scope
+  - neutral
+  - bot_challenge
+
+entities:
+- specialization
+- location
+- doctor_id
+
+slots:
+  specialization:
+    type: unfeaturized
+  address:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  doctor_id:
+    type: unfeaturized
+  regNo:
+    type: unfeaturized
+  doctor_name:
+    type: unfeaturized
+
+actions:
+- utter_greet
+- utter_select_option
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_noworries
+- utter_out_of_scope
+- utter_pardon_response
+- utter_ask_location 
+- action_doctor_search
+- utter_doctor_details
+- find_doctor_details
+
+forms:
+- doctor_form
+
+responses:
+  utter_greet:
+  - text: "Hi, I am an E-Chenneling chat-bot, I can help you to make make an appointment. How can I help you?"
+
+  utter_select_option:
+  - text: "Select one of the options to continue:"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  - text: "Have a good day."
+  - text: "Until next time!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_noworries:
+  - text: "My pleasure."
+  - text: "You are welcome!"
+
+  utter_out_of_scope:
+  - text: "Sorry! I dont know about it..."
+  - text: "Sorry! I am not an expert in that."
+  - text: "Sorry! I beg your pardon..."
+
+  utter_pardon_response:
+  - text: "Well, Do you have anything?"
+  - text: "Anything else?"
+  - text: "Do you need any other service?"
+
+  utter_ask_location:
+  - text: "Can you provide your city or zip-code?"
+  - text: "To find the nearest {specialization} I need your address."
+
+  utter_doctor_details:
+  - text: "Registration Number: {regNo}, Doctor's name: {doctor_name} and Specialization: {specialization}"

@@ -1,0 +1,174 @@
+IT Number: IT17044400
+Name: Hariharan
+
+########################################## Second commit ##########################################
+Since Rasa framework is a very huge file, I have uploaded only the scripts
+Back-end services will be updated
+Basic NLU is working fine:3 <3
+
+Task completed
+* Basic NLU trained
+* Actions file first action in construction
+* Basic doctor handling crud with springboot # This will be overidden by my other members services while integration, this is just a support work.
+## 12/04/2020 GIT LAB Pushing date
+## 06/04/2020 Actual completion of tasks
+
+Refer to Rasa-Chatbot
+##############################################################################################################################
+
+########################################## Third commit ##########################################
+Task completed
+* Application which can trace the address of an hospital for a sample has been completed.
+* Connected to a back-end from an external API from: https://data.medicare.gov/Home-Health-Compare/Home-Health-Care-Agencies/6jpm-sxkc
+* 100% worked as expected
+## 26/04/2020 GIT LAB Pushing date
+## 23/04/2020 Actual completion of tasks
+
+Refer to Rasa-Chatbot-1
+These codes were extracted from: https://github.com/RasaHQ/rasa-masterclass/tree/master/episode8
+##############################################################################################################################
+
+########################################## Fourth commit ##########################################
+Task completed
+* Application which can trace dummy doctors from the springboot Backend API has been completed
+* Rasa NLU trained
+* Rasa core trained
+* 100% worked as expected
+## 26/04/2020 GIT LAB Pushing date
+## 24/04/2020 Actual completion of tasks
+
+Refer to Rasa-Chatbot-2
+##############################################################################################################################
+
+########################################## Fifth commit ##########################################
+Task completed
+* Db design completed with dummy data
+## 27/04/2020 GIT LAB Pushing date
+## 27/04/2020 Actual completion of tasks
+
+Refer to sql_db
+##############################################################################################################################
+
+########################################## Sixth commit ##########################################
+Task completed
+* Completed the db for our purpose chatbot
+* Completed the backend services
+* Back end tested and 100% worked as expected
+## 28/04/2020 GIT LAB Pushing date
+## 28/04/2020 Actual completion of tasks
+
+Refer to sql_db
+Refer to echanelling-service
+##############################################################################################################################
+
+>>> Intermediate push when my laptop crashed due to over heat
+
+########################################## Seventh commit ##########################################
+Task completed
+* Appointment making successfull
+## 08/05/2020 GIT LAB Pushing date
+## 08/05/2020 Actual completion of tasks
+
+Refer to Rasa-Chatbot-4
+##############################################################################################################################
+
+########################################## Eighth commit ##########################################
+Task completed
+* Backend Springboot project updated
+* Database updated
+* Appointment making successfull
+* missing part added
+* combining all the backend and rasa bot
+## 09/05/2020 GIT LAB Pushing date
+## 09/05/2020 Actual completion of tasks
+
+Refer to Rasa-Chatbot-4
+Refer to sql_db
+Refer to echanelling-service
+##############################################################################################################################
+
+########################################## Ninth commit ##########################################
+Task completed
+* Bug fixation
+* channeling updates
+## 03/07/2020 GIT LAB Pushing date
+Refer to Rasa-Chatbot-5
+Refer to echanelling-service
+https://drive.google.com/file/d/1h2DVgGLLnY952dWbRmsFnMJeWdPoUh2u/view?usp=sharing => link for the video
+##############################################################################################################################
+
+########################################## Tenth commit ##########################################
+Task completed
+* Training more chat flows
+* Searching appointment by doctor name is done
+* Searching appointment by hospital name and specialization is done
+* Searching appointment by specialization and location is done
+## 29/08/2020 GIT LAB Pushing date
+## 15/08/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-6
+##############################################################################################################################
+
+########################################## Eleventh commit ##########################################
+Task completed
+* Training more chat flows
+* Searching appointment by doctor name is done
+* Searching appointment by hospital name and specialization is done
+* Searching appointment by specialization and location is done
+* Some bugs are cleared
+## 29/08/2020 GIT LAB Pushing date
+## 22/08/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-7
+##############################################################################################################################
+
+########################################## Twelfth commit ##########################################
+Task completed
+* Handling wrong chat message
+## 05/09/2020 GIT LAB Pushing date
+## 05/09/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-8
+##############################################################################################################################
+
+########################################## Thirteenth commit ##########################################
+Task completed
+* Integration
+## 17/10/2020 GIT LAB Pushing date
+## 30/10/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-9
+##############################################################################################################################
+
+########################################## Fourteenth commit ##########################################
+Task completed
+* Automatic form filling or remembarance
+* New functions in springboot-api
+* Sql db update
+## 05/11/2020 GIT LAB Pushing date
+## 05/11/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-10
+Refer to echanneling-service
+Refer to sql_db
+Refer to Chat-comparisons
+##############################################################################################################################
+
+########################################## Fifteenth commit ##########################################
+Task completed
+* Chatbot adjustments
+## 26/12/2020 GIT LAB Pushing date
+## 26/12/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-11
+##############################################################################################################################
+
+########################################## Sixteenth commit ##########################################
+Task completed
+* Chatbot integration with other parts
+## 26/12/2020 GIT LAB Pushing date
+## 27/12/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-12
+##############################################################################################################################
+
+########################################## Seventeenth commit ##########################################
+Task completed
+* Clean code
+## 08/01/2021 GIT LAB Pushing date
+## 08/01/2021 Actual completion of tasks
+Refer to Rasa-Chatbot-13
+##############################################################################################################################

@@ -1,0 +1,858 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- GM
+- Good morning
+- Good evening
+- Good afternoon
+- Hi again
+- Hi folks
+- Hi Mister
+- Hi pal!
+- Hi there
+- Greetings
+- Hello everybody
+- Hello is anybody there
+- Hello robot
+- Hello, good morning
+- Hello, good evening
+- Hello, good afternoon
+- hi
+- hey
+- hi bot
+- hey bot
+- hello
+- gM
+- good morning
+- good evening
+- good afternoon
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hello, good morning
+- hello, good evening
+- hello, good afternoon
+
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- oki
+- kay
+- sure
+- Yes
+- Yes sure
+- Absolutely
+- For sure
+- Yes yes yes
+- Definitely
+- Yeah
+- Si
+- Ok
+- Okay
+- Oki
+- Kay
+- Sure
+
+## intent:neutral
+- Oh! it is okay
+- Oh! that is fine
+- Oh! its okay
+- Oh! thats fine
+- its fine
+- it's fine
+- thats okay
+- that's okay
+- thats fine
+- that's fine
+- oh it's fine
+- oh it's okay
+- oh! it's fine
+- oh! it's okay
+- oh thats okay
+- oh that's okay
+- oh! thats okay
+- oh! that's okay
+
+## intent:deny
+- no
+- not today
+- no thanks
+- no thank you
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
+- nope
+- uhh no
+- No
+- Not today
+- No thanks
+- No thank you
+- Uh no
+- Noope
+- Do you have something else
+- No this does not work for me
+- Nope
+- Uhh no
+
+## intent:out_of_scope
+- please help with my ice cream it's dripping
+- Please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- No wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- someone call the police i think the bot died
+- Someone call the police i think the bot died
+- show me a picture of a chicken
+- Show me a picture of a chicken
+- neither
+- Neither
+- I want french cuisine
+- i want french cuisine
+- i am hungry
+- I am hungry
+- restaurant
+- Restaurant
+- can i be shown a gluten free restaurant
+- Can i be shown a gluten free restaurant
+- i don't care!!!!
+- I don't care!!!!
+- i do not care how are you
+- I do not care how are you
+- again?
+- Again?
+- oh wait i gave you my work email address can i change it?
+- Oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- Hang on let me find it
+- stop it, i do not care!!!
+- Stop it, i do not care!!!
+- how come?
+- How come?
+- I changed my mind
+- i changed my mind
+- what?
+- What?
+- did i break you
+- Did i break you
+- that link doesn't work!
+- That link doesn't work!
+- you already have that
+- You already have that
+- this is a really frustrating experience
+- This is a really frustrating experience
+- no stop
+- No stop
+- give me food
+- Give me food
+- i want food
+- I want food
+- Can I ask you questions first?
+- can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- Is it a wasteland full of broken robot parts?
+- can we keep chatting?
+- Can we keep chatting?
+- talk to me
+- Talk to me
+- who is your favourite robot?
+- Who is your favourite robot?
+- can you help me to build a bot
+- Can you help me to build a bot
+
+## intent:goodbye
+- Bye
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- See you
+- I'm off
+- C ya
+- Catch you later
+- Bye for now
+- Gotta go
+- See you later alligator
+- We'll speak soon
+- Good night
+- Goodnight
+- Have a nice day
+- Tataa
+- C u
+- bye
+- bye!
+- goodbye
+- see you later
+- bye bot
+- goodbye friend
+- see you
+- i'm off
+- c ya
+- catch you later
+- bye for now
+- gotta go
+- see you later alligator
+- we'll speak soon
+- good night
+- goodnight
+- have a nice day
+- tataa
+- c u
+
+## intent:thanks
+- thanks
+- thank you
+- thank you so much
+- thanks bot
+- thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- tnq
+- tq
+- ty
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- Cheers
+- Cheers bro
+- Ok thanks!
+- Perfect thank you
+- Thanks a bunch for everything
+- Thanks for the help
+- Thanks a lot
+- Amazing, thanks
+- Cool, thanks
+- Cool thank you
+- Tnq
+- Tq
+- Ty
+
+## intent:mood_great
+- Perfect
+- Very good
+- Great
+- Amazing
+- Wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- Thats great
+- That's great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- i am feeling very good
+- i am great
+- i'm good
+- thats great
+- that's great
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- i'm sad
+- i am sad
+- im sad
+- i m sad
+- Sad
+- Very sad
+- Unhappy
+- Bad
+- Very bad
+- Awful
+- Terrible
+- Not very good
+- Extremely sad
+- So sad
+- I'm sad
+- I am sad
+- Im sad
+- I m sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- Are you a bot?
+- Are you a human?
+- Am I talking to a bot?
+- Am I talking to a human?
+
+## intent:search_provider
+- Can i channel a [doctor](facility)?
+- Is there any [doctor](facility) i can channel?
+- I want to channel a [doctor](facility)
+- Are there any [doctors](facility) i can channel?
+- I need to channel a [doctor](facility)
+- Show me a [doctor](facility)
+- Can i channel a [dr](facility)?
+- Is there any [dr](facility) i can channel?
+- I want to channel a [dr](facility)
+- Are there any [dr](facility) i can channel?
+- I need to channel a [dr](facility)
+- Show me a [dr](facility)
+- Can i channel a [doc](facility)?
+- Is there any [doc](facility) i can channel?
+- I want to channel a [doc](facility)
+- Are there any [doc](facility) i can channel?
+- I need to channel a [doc](facility)
+- Show me a [doc](facility)
+- Can i channel a [Dr](facility)?
+- Is there any [Dr](facility) i can channel?
+- I want to channel a [Dr](facility)
+- Are there any [Dr](facility) i can channel?
+- I need to channel a [Dr](facility)
+- Show me a [Dr](facility)
+- can i channel a [doctor](facility)?
+- is there any [doctor](facility) i can channel?
+- i want to channel a [doctor](facility)
+- are there any [doctors](facility) i can channel?
+- i need to channel a [doctor](facility)
+- show me a [doctor](facility)
+- can i channel a [dr](facility)?
+- is there any [dr](facility) i can channel?
+- i want to channel a [dr](facility)
+- are there any [dr](facility) i can channel?
+- i need to channel a [dr](facility)
+- show me a [dr](facility)
+- can i channel a [doc](facility)?
+- is there any [doc](facility) i can channel?
+- i want to channel a [doc](facility)
+- are there any [doc](facility) i can channel?
+- i need to channel a [doc](facility)
+- show me a [doc](facility)
+- can i channel a [Dr](facility)?
+- is there any [Dr](facility) i can channel?
+- i want to channel a [Dr](facility)
+- are there any [Dr](facility) i can channel?
+- i need to channel a [Dr](facility)
+- show me a [Dr](facility)
+- i need a [doctor](facility)
+- I need a [doctor](facility)
+- i need a [Dr](facility)
+- I need a [Dr](facility)
+- i need a [doc](facility)
+- I need a [doc](facility)
+- i need a [dr](facility)
+- I need a [dr](facility)
+
+## intent:inform
+<!-- Specialization -->
+- [general](specialization)
+- [General](specialization)
+- [physician](specialization)
+- [Physician](specialization)
+- [general physician](specialization)
+- [General physician](specialization)
+- [pediatricians](specialization)
+- [Pediatricians](specialization)
+- [pediatrician](specialization)
+- [Pediatrician](specialization)
+- [geriatric](specialization)
+- [Geriatric](specialization)
+- [allergists](specialization)
+- [Allergists](specialization)
+- [allergist](specialization)
+- [Allergist](specialization)
+- [dermatologists](specialization)
+- [Dermatologists](specialization)
+- [dermatologist](specialization)
+- [Dermatologist](specialization)
+- [ophthalmologists](specialization)
+- [Ophthalmologists](specialization)
+- [ophthalmologist](specialization)
+- [Ophthalmologist](specialization)
+- [obstetrician](specialization)
+- [Obstetrician](specialization)
+- [gynecologists](specialization)
+- [Gynecologists](specialization)
+- [gynecologist](specialization)
+- [Gynecologist](specialization)
+- [cardiologists](specialization)
+- [Cardiologists](specialization)
+- [cardiologist](specialization)
+- [Cardiologist](specialization)
+- [endocrinologists](specialization)
+- [Endocrinologists](specialization)
+- [endocrinologist](specialization)
+- [Endocrinologist](specialization)
+- [gastroenterologists](specialization)
+- [Gastroenterologists](specialization)
+- [gastroenterologist](specialization)
+- [Gastroenterologist](specialization)
+- [nephrologists](specialization)
+- [Nephrologists](specialization)
+- [nephrologist](specialization)
+- [Nephrologist](specialization)
+- [urologists](specialization)
+- [Urologists](specialization)
+- [urologist](specialization)
+- [Urologist](specialization)
+- [pulmonologists](specialization)
+- [Pulmonologists](specialization)
+- [pulmonologist](specialization)
+- [Pulmonologist](specialization)
+- [otolaryngologists](specialization)
+- [Otolaryngologists](specialization)
+- [otolaryngologist](specialization)
+- [Otolaryngologist](specialization)
+- [neurologists](specialization)
+- [Neurologists](specialization)
+- [neurologist](specialization)
+- [Neurologist](specialization)
+- [psychiatrists](specialization)
+- [Psychiatrists](specialization)
+- [psychiatrist](specialization)
+- [Psychiatrist](specialization)
+- [oncologists](specialization)
+- [Oncologists](specialization)
+- [oncologist](specialization)
+- [Oncologist](specialization)
+- [Radiologists](specialization)
+- [radiologists](specialization)
+- [Radiologist](specialization)
+- [radiologist](specialization)
+- [Rheumatologists](specialization)
+- [rheumatologists](specialization)
+- [Rheumatologist](specialization)
+- [rheumatologist](specialization)
+- [General surgeons](specialization)
+- [general surgeons](specialization)
+- [Orthopedic surgeons](specialization)
+- [orthopedic surgeons](specialization)
+- [Cardiac surgeons](specialization)
+- [cardiac surgeons](specialization)
+- [Anesthesiologists](specialization)
+- [anesthesiologists](specialization)
+- [General surgeon](specialization)
+- [general surgeon](specialization)
+- [Orthopedic surgeon](specialization)
+- [orthopedic surgeon](specialization)
+- [Cardiac surgeon](specialization)
+- [cardiac surgeon](specialization)
+- [Anesthesiologist](specialization)
+- [anesthesiologist](specialization)
+- I need a [cardiologist](specialization)
+- I want a [cardiologist](specialization)
+- i need a [cardiologist](specialization)
+- i want a [cardiologist](specialization)
+- I want to channel a [cardiologist](specialization)
+- i want to channel a [cardiologist](specialization)
+- I need to channel a [cardiologist](specialization)
+- i need to channel a [cardiologist](specialization)
+- I need a doctor specialiazed as a [cardiologist](specialization)
+- i need a doctor specialiazed as a [cardiologist](specialization)
+- i want a doctor specialiazed as a [cardiologist](specialization)
+- I want a doctor specialiazed as a [cardiologist](specialization)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization)
+- he is a [cardiologist](specialization)
+- she is a [cardiologist](specialization)
+- He is a [cardiologist](specialization)
+- She is a [cardiologist](specialization)
+<!-- Location -->
+- [Colombo](location)
+- [Dehiwala](location)
+- [Mount Lavinia](location)
+- [Moratuwa](location)
+- [Sri Jayawardenapura Kotte](location)
+- [Negombo](location)
+- [Kandy](location)
+- [Vavuniya](location)
+- [Galle](location)
+- [Trincomalee](location)
+- [Batticaloa](location)
+- [Jaffna](location)
+- [Katunayake](location)
+- [Dambulla](location)
+- [Kolonnawa](location)
+- [Anuradhapura](location)
+- [Ratnapura](location)
+- [Kilinochchi](location)
+- [Mannar](location)
+- [Mullaitivu](location)
+- [Puttalam](location)
+- [Kurunegala](location)
+- [Gampaha](location)
+- [Kalutara](location)
+- [Polonnaruwa](location)
+- [Matale](location)
+- [Nuwara Eliya](location)
+- [Kegalle](location)
+- [Ampara](location)
+- [Badulla](location)
+- [Monaragala](location)
+- [Hambantota](location)
+- [Matara](location)
+- [Ratnapura](location)
+- [Ratnapura](location)
+- [Colombo Fort](location)
+- [Fort](location)
+- [Slave Island](location)
+- [Kolpity](location)
+- [Bambalapitiya](location)
+- [Narahenpita](location)
+- [Havelock Town](location)
+- [Kirulapona](location)
+- [Wellawatta](location)
+- [Pamankada](location)
+- [Cinnamon Garden](location)
+- [Borella](location)
+- [Dematagoda](location)
+- [Maradana](location)
+- [Panchikawatte](location)
+- [Pettah](location)
+- [Hulsfdorf](location)
+- [Bloemendhal](location)
+- [Grandpass](location)
+- [Mattakkuliya](location)
+- [Modara](location)
+- [Mutwal](location)
+- [Madampitiya](location)
+- [Kotahena](location)
+- [Kochchikade](location)
+- [Aluthkade](location)
+- [Pitakotuwa](location)
+- [Kurunduwatta](location)
+- [Kollupitiya](location)
+- [Kompanyaweediya](location)
+- [Kotuwa](location)
+- [Akarawita](location)
+- [Angoda](location)
+- [Arangala](location)
+- [Athurugiriya](location)
+- [Avissawella](location)
+- [Batawala](location)
+- [Battaramulla](location)
+- [Batugampola](location)
+- [Bope](location)
+- [Boralesgamuwa](location)
+- [Dedigamuwa](location)
+- [Deltara](location)
+- [Embuldeniya](location)
+- [Gongodawila](location)
+- [Habarakada](location)
+- [Handapangoda](location)
+- [Hanwella](location)
+- [Hewainna](location)
+- [Hiripitya](location)
+- [Hokandara](location)
+- [Homagama](location)
+- [Horagala](location)
+- [Kaduwela](location)
+- [Kahawala](location)
+- [Kalatuwawa](location)
+- [Kalubowila](location)
+- [Kiriwattuduwa](location)
+- [Kohuwala](location)
+- [Kosgama](location)
+- [Kotikawatta](location)
+- [Kottawa](location)
+- [Madapatha](location)
+- [Maharagama](location)
+- [Malabe](location)
+- [Meegoda](location)
+- [Mullegama](location)
+- [Mulleriyawa](location)
+- [Napawela](location)
+- [Nugegoda](location)
+- [Padukka](location)
+- [Pannipitiya](location)
+- [Piliyandala](location)
+- [Pita Kotte](location)
+- [Pitipana Homagama](location)
+- [Polgasowita](location)
+- [Puwakpitiya](location)
+- [Rajagiriya](location)
+- [Ranala](location)
+- [Ratmalana](location)
+- [Siddamulla](location)
+- [Talawatugoda](location)
+- [Tummodara](location)
+- [Sri Jayewardenepura](location)
+- [Waga](location)
+- [Watareka](location)
+- [Wijerama](location)
+- I am from [Colombo](location)
+- I am in [Colombo](location)
+- I m from [Colombo](location)
+- I m in [Colombo](location)
+- Im from [Colombo](location)
+- Im in [Colombo](location)
+- I'm from [Colombo](location)
+- I'm in [Colombo](location)
+- My zip code is [00100](location)
+- My zipcode is [00100](location)
+- My zip-code is [00100](location)
+- My location is [Colombo](location)
+- i am from [Colombo](location)
+- i am in [Colombo](location)
+- i m from [Colombo](location)
+- i m in [Colombo](location)
+- im from [Colombo](location)
+- im in [Colombo](location)
+- i'm from [Colombo](location)
+- i'm in [Colombo](location)
+- my zip code is [00100](location)
+- my zipcode is [00100](location)
+- my zip-code is [00100](location)
+- my location is [Colombo](location)
+<!-- patient name -->
+- [Hariharan](patient_name)
+- [James](patient_name)
+- [John](patient_name)
+- [Robert](patient_name)
+- [Michael](patient_name)
+- [William](patient_name)
+- [David](patient_name)
+- [Richard](patient_name)
+- [Joseph](patient_name)
+- [Thomas](patient_name)
+- [Charles](patient_name)
+- [Daniel](patient_name)
+- [Matthew](patient_name)
+- [Anthony](patient_name)
+- [Donald](patient_name)
+- [Mark](patient_name)
+- [Paul](patient_name)
+- [Steven](patient_name)
+- [Andrew](patient_name)
+- [Kenneth](patient_name)
+- [Emily](patient_name)
+- [Donna](patient_name)
+- [Kimberly](patient_name)
+- [Ashley](patient_name)
+- [Sandra](patient_name)
+- [Dorothy](patient_name)
+- [Betty](patient_name)
+- [Lisa](patient_name)
+- [Nancy](patient_name)
+- [Karen](patient_name)
+- [Sarah](patient_name)
+- [Jessica](patient_name)
+- [Susan](patient_name)
+- [Barbara](patient_name)
+- [Elizabeth](patient_name)
+- [Linda](patient_name)
+- [Jennifer](patient_name)
+- [Patricia](patient_name)
+- [Mary](patient_name)
+- [Hanar](patient_name)
+- I am [Hariharan](patient_name)
+- My name is [Hariharan](patient_name)
+- He is [Hariharan](patient_name)
+- She is [Hanar](patient_name)
+- Her name is [Hanar](patient_name)
+- His name is [Hariharan](patient_name)
+- The patient's name is [Hariharan](patient_name)
+- The patient is [Hariharan](patient_name)
+- Patient's name is [Hariharan](patient_name)
+- Patient is [Hariharan](patient_name)
+- i am [Hariharan](patient_name)
+- my name is [Hariharan](patient_name)
+- he is [Hariharan](patient_name)
+- she is [Hanar](patient_name)
+- her name is [Hanar](patient_name)
+- his name is [Hariharan](patient_name)
+- the patient's name is [Hariharan](patient_name)
+- the patient is [Hariharan](patient_name)
+- patient's name is [Hariharan](patient_name)
+- patient is [Hariharan](patient_name)
+<!-- phone number -->
+- My phone number is [0776318136](contact_number)
+- Phone number is [0776318136](contact_number)
+- The phone number is [0776318136](contact_number)
+- It is [0776318136](contact_number)
+- Its [0776318136](contact_number)
+- It's [0776318136](contact_number)
+- My contact number is [0776318136](contact_number)
+- Contact number is [0776318136](contact_number)
+- The contact number is [0776318136](contact_number)
+- my phone number is [0776318136](contact_number)
+- phone number is [0776318136](contact_number)
+- the phone number is [0776318136](contact_number)
+- it is [0776318136](contact_number)
+- its [0776318136](contact_number)
+- it's [0776318136](contact_number)
+- my contact number is [0776318136](contact_number)
+- contact number is [0776318136](contact_number)
+- the contact number is [0776318136](contact_number)
+- [0776318136](contact_number)
+<!-- email address -->
+- The email address is [hariharansliit@gmail.com](email_address)
+- It is [hariharansliit@gmail.com](email_address)
+- My email address is [hariharansliit@gmail.com](email_address)
+- Email addres is [hariharansliit@gmail.com](email_address)
+- The email is [hariharansliit@gmail.com](email_address)
+- My email is [hariharansliit@gmail.com](email_address)
+- Email is [hariharansliit@gmail.com](email_address)
+- the email address is [hariharansliit@gmail.com](email_address)
+- it is [hariharansliit@gmail.com](email_address)
+- my email address is [hariharansliit@gmail.com](email_address)
+- email addres is [hariharansliit@gmail.com](email_address)
+- the email is [hariharansliit@gmail.com](email_address)
+- my email is [hariharansliit@gmail.com](email_address)
+- email is [hariharansliit@gmail.com](email_address)
+- [hariharansliit@gmail.com](email_address)
+<!-- nic number -->
+- The NIC is [991133992V](nic)
+- It is [991133992V](nic)
+- My NIC is [991133992V](nic)
+- NIC is [991133992V](nic)
+- The nic is [991133992V](nic)
+- My nic is [991133992V](nic)
+- nic is [991133992V](nic)
+- the NIC is [991133992V](nic)
+- it is [991133992V](nic)
+- my NIC is [991133992V](nic)
+- the nic is [991133992V](nic)
+- my nic is [991133992V](nic)
+- The NIC number is [991133992V](nic)
+- My NIC number is [991133992V](nic)
+- NIC number is [991133992V](nic)
+- The nic number is [991133992V](nic)
+- My nic number is [991133992V](nic)
+- nic number is [991133992V](nic)
+- the NIC number is [991133992V](nic)
+- my NIC number is [991133992V](nic)
+- the nic number is [991133992V](nic)
+- my nic number is [991133992V](nic)
+- The Nic is [991133992V](nic)
+- My Nic is [991133992V](nic)
+- Nic is [991133992V](nic)
+- The Nic is [991133992V](nic)
+- My Nic is [991133992V](nic)
+- the Nic is [991133992V](nic)
+- my Nic is [991133992V](nic)
+- the Nic is [991133992V](nic)
+- my Nic is [991133992V](nic)
+- The Nic number is [991133992V](nic)
+- My Nic number is [991133992V](nic)
+- Nic number is [991133992V](nic)
+- The Nic number is [991133992V](nic)
+- My Nic number is [991133992V](nic)
+- Nic number is [991133992V](nic)
+- the Nic number is [991133992V](nic)
+- my Nic number is [991133992V](nic)
+- the Nic number is [991133992V](nic)
+- my Nic number is [991133992V](nic)
+- [991133992V](nic)
+- [991133992X](nic)
+- [991133992v](nic)
+- [991133992x](nic)
+- [19991133992](nic)
+- [19991133992](nic)
+- [19991133992](nic)
+- [19991133992](nic)
+<!-- credit card -->
+- Credit card number is [2222444422224444](credit_card)
+- It is [2222444422224444](credit_card)
+- Its [2222444422224444](credit_card)
+- It's [2222444422224444](credit_card)
+- My credit card number is [2222444422224444](credit_card)
+- The credit card number is [2222444422224444](credit_card)
+- credit card number is [2222444422224444](credit_card)
+- it is [2222444422224444](credit_card)
+- its [2222444422224444](credit_card)
+- it's [2222444422224444](credit_card)
+- my credit card number is [2222444422224444](credit_card)
+- the credit card number is [2222444422224444](credit_card)
+- [2222444422224444](credit_card)
+<!-- cvv -->
+- My cvv code is [002](cvv)
+- My cvv is [002](cvv)
+- Cvv is [002](cvv)
+- Cvv code is [002](cvv)
+- The code is [002](cvv)
+- It is [002](cvv)
+- Its [002](cvv)
+- It's [002](cvv)
+- my cvv code is [002](cvv)
+- my cvv is [002](cvv)
+- cvv is [002](cvv)
+- cvv code is [002](cvv)
+- the code is [002](cvv)
+- it is [002](cvv)
+- its [002](cvv)
+- it's [002](cvv)
+- my CVV code is [002](cvv)
+- my CVV is [002](cvv)
+- CVV is [002](cvv)
+- CVV code is [002](cvv)
+- My CVV code is [002](cvv)
+- My CVV is [002](cvv)
+- my Cvv code is [002](cvv)
+- my Cvv is [002](cvv)
+- Cvv is [002](cvv)
+- Cvv code is [002](cvv)
+- My Cvv code is [002](cvv)
+- My Cvv is [002](cvv)
+- [002](cvv)
+
+## regex:location
+- [0-9]{5}
+
+## regex:contact_number
+- [0-9]{10}
+
+## regex:cvv
+- ^[0-9]{3,4}$
+
+## regex:credit_card
+- [0-9]{16}
+
+## regex:email_address
+- (?:\w+@\w+\.\w+)
+
+## synonym:doctor
+- doctor
+- dr
+- Dr
+- doc
+
+## regex:patient_name
+- [A-Z][a-zA-Z][^#&<>\"~;$^%{}?]{1,20}$
+
+## regex:nic
+- ^([0-9]{9}[x|X|v|V]|[0-9]{12})$

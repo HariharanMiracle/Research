@@ -1,0 +1,487 @@
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- oki
+- kay
+- sure
+
+## intent:neutral
+- Oh! it is okay
+- Oh! that is fine
+- Oh! its okay
+- Oh! thats fine
+- its fine
+- it's fine
+- thats okay
+- that's okay
+- thats fine
+- that's fine
+- oh it's fine
+- oh it's okay
+- oh! it's fine
+- oh! it's okay
+- oh thats okay
+- oh that's okay
+- oh! thats okay
+- oh! that's okay
+
+## intent:deny
+- no
+- not today
+- no thanks
+- no thank you
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
+- nope
+
+## intent:out_of_scope
+- please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- someone call the police i think the bot died
+- show me a picture of a chicken
+- neither
+- I want french cuisine
+- i am hungry
+- restaurant
+- can i be shown a gluten free restaurant
+- i don't care!!!!
+- i do not care how are you
+- again?
+- oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- stop it, i do not care!!!
+- how come?
+- I changed my mind
+- what?
+- did i break you
+- that link doesn't work!
+- you already have that
+- this is a really frustrating experience
+- no stop
+- give me food
+- i want food
+- Can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- can we keep chatting?
+- talk to me
+- who is your favourite robot?
+- can you help me to build a bot
+
+## intent:goodbye
+- Bye
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- I'm off
+- see you later alligator
+- we'll speak soon
+- tataa
+- c ya
+- c u
+- C ya
+- C u
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+- good afternoon
+- good evening
+- hello, good morning
+- gm
+- Gm
+- GM
+
+## intent:inform
+<!-- Specializations -->
+- [general](specialization)
+- [General](specialization)
+- [physician](specialization)
+- [Physician](specialization)
+- [general physician](specialization)
+- [General physician](specialization)
+- [pediatricians](specialization)
+- [Pediatricians](specialization)
+- [pediatrician](specialization)
+- [Pediatrician](specialization)
+- [geriatric](specialization)
+- [Geriatric](specialization)
+- [allergists](specialization)
+- [Allergists](specialization)
+- [allergist](specialization)
+- [Allergist](specialization)
+- [dermatologists](specialization)
+- [Dermatologists](specialization)
+- [dermatologist](specialization)
+- [Dermatologist](specialization)
+- [ophthalmologists](specialization)
+- [Ophthalmologists](specialization)
+- [ophthalmologist](specialization)
+- [Ophthalmologist](specialization)
+- [obstetrician](specialization)
+- [Obstetrician](specialization)
+- [gynecologists](specialization)
+- [Gynecologists](specialization)
+- [gynecologist](specialization)
+- [Gynecologist](specialization)
+- [cardiologists](specialization)
+- [Cardiologists](specialization)
+- [cardiologist](specialization)
+- [Cardiologist](specialization)
+- [endocrinologists](specialization)
+- [Endocrinologists](specialization)
+- [endocrinologist](specialization)
+- [Endocrinologist](specialization)
+- [gastroenterologists](specialization)
+- [Gastroenterologists](specialization)
+- [gastroenterologist](specialization)
+- [Gastroenterologist](specialization)
+- [nephrologists](specialization)
+- [Nephrologists](specialization)
+- [nephrologist](specialization)
+- [Nephrologist](specialization)
+- [urologists](specialization)
+- [Urologists](specialization)
+- [urologist](specialization)
+- [Urologist](specialization)
+- [pulmonologists](specialization)
+- [Pulmonologists](specialization)
+- [pulmonologist](specialization)
+- [Pulmonologist](specialization)
+- [otolaryngologists](specialization)
+- [Otolaryngologists](specialization)
+- [otolaryngologist](specialization)
+- [Otolaryngologist](specialization)
+- [neurologists](specialization)
+- [Neurologists](specialization)
+- [neurologist](specialization)
+- [Neurologist](specialization)
+- [psychiatrists](specialization)
+- [Psychiatrists](specialization)
+- [psychiatrist](specialization)
+- [Psychiatrist](specialization)
+- [oncologists](specialization)
+- [Oncologists](specialization)
+- [oncologist](specialization)
+- [Oncologist](specialization)
+- [Radiologists](specialization)
+- [radiologists](specialization)
+- [Radiologist](specialization)
+- [radiologist](specialization)
+- [Rheumatologists](specialization)
+- [rheumatologists](specialization)
+- [Rheumatologist](specialization)
+- [rheumatologist](specialization)
+- [General surgeons](specialization)
+- [general surgeons](specialization)
+- [Orthopedic surgeons](specialization)
+- [orthopedic surgeons](specialization)
+- [Cardiac surgeons](specialization)
+- [cardiac surgeons](specialization)
+- [Anesthesiologists](specialization)
+- [anesthesiologists](specialization)
+- [General surgeon](specialization)
+- [general surgeon](specialization)
+- [Orthopedic surgeon](specialization)
+- [orthopedic surgeon](specialization)
+- [Cardiac surgeon](specialization)
+- [cardiac surgeon](specialization)
+- [Anesthesiologist](specialization)
+- [anesthesiologist](specialization)
+<!-- Distric and other Location -->
+- [Colombo](location)
+- [Dehiwala](location)
+- [Mount Lavinia](location)
+- [Moratuwa](location)
+- [Sri Jayawardenapura Kotte](location)
+- [Negombo](location)
+- [Kandy](location)
+- [Vavuniya](location)
+- [Galle](location)
+- [Trincomalee](location)
+- [Batticaloa](location)
+- [Jaffna](location)
+- [Katunayake](location)
+- [Dambulla](location)
+- [Kolonnawa](location)
+- [Anuradhapura](location)
+- [Ratnapura](location)
+- [Kilinochchi](location)
+- [Mannar](location)
+- [Mullaitivu](location)
+- [Puttalam](location)
+- [Kurunegala](location)
+- [Gampaha](location)
+- [Kalutara](location)
+- [Polonnaruwa](location)
+- [Matale](location)
+- [Nuwara Eliya](location)
+- [Kegalle](location)
+- [Ampara](location)
+- [Badulla](location)
+- [Monaragala](location)
+- [Hambantota](location)
+- [Matara](location)
+- [Ratnapura](location)
+- [Ratnapura](location)
+<!-- Other cities and villages location  -->
+- [Colombo Fort](location)
+- [Fort](location)
+- [Slave Island](location)
+- [Kolpity](location)
+- [Bambalapitiya](location)
+- [Narahenpita](location)
+- [Havelock Town](location)
+- [Kirulapona](location)
+- [Wellawatta](location)
+- [Pamankada](location)
+- [Cinnamon Garden](location)
+- [Borella](location)
+- [Dematagoda](location)
+- [Maradana](location)
+- [Panchikawatte](location)
+- [Pettah](location)
+- [Hulsfdorf](location)
+- [Bloemendhal](location)
+- [Grandpass](location)
+- [Mattakkuliya](location)
+- [Modara](location)
+- [Mutwal](location)
+- [Madampitiya](location)
+- [Kotahena](location)
+- [Kochchikade](location)
+- [Aluthkade](location)
+- [Pitakotuwa](location)
+- [Kurunduwatta](location)
+- [Kollupitiya](location)
+- [Kompanyaweediya](location)
+- [Kotuwa](location)
+- [Akarawita](location)
+- [Angoda](location)
+- [Arangala](location)
+- [Athurugiriya](location)
+- [Avissawella](location)
+- [Batawala](location)
+- [Battaramulla](location)
+- [Batugampola](location)
+- [Bope](location)
+- [Boralesgamuwa](location)
+- [Dedigamuwa](location)
+- [Deltara](location)
+- [Embuldeniya](location)
+- [Gongodawila](location)
+- [Habarakada](location)
+- [Handapangoda](location)
+- [Hanwella](location)
+- [Hewainna](location)
+- [Hiripitya](location)
+- [Hokandara](location)
+- [Homagama](location)
+- [Horagala](location)
+- [Kaduwela](location)
+- [Kahawala](location)
+- [Kalatuwawa](location)
+- [Kalubowila](location)
+- [Kiriwattuduwa](location)
+- [Kohuwala](location)
+- [Kosgama](location)
+- [Kotikawatta](location)
+- [Kottawa](location)
+- [Madapatha](location)
+- [Maharagama](location)
+- [Malabe](location)
+- [Meegoda](location)
+- [Mullegama](location)
+- [Mulleriyawa](location)
+- [Napawela](location)
+- [Nugegoda](location)
+- [Padukka](location)
+- [Pannipitiya](location)
+- [Piliyandala](location)
+- [Pita Kotte](location)
+- [Pitipana Homagama](location)
+- [Polgasowita](location)
+- [Puwakpitiya](location)
+- [Rajagiriya](location)
+- [Ranala](location)
+- [Ratmalana](location)
+- [Siddamulla](location)
+- [Talawatugoda](location)
+- [Tummodara](location)
+- [Sri Jayewardenepura](location)
+- [Waga](location)
+- [Watareka](location)
+- [Wijerama](location)
+
+## intent:search_provider_specialization_location
+- I need a [cardiologist](specialization)
+- I want a [cardiologist](specialization)
+- i need a [cardiologist](specialization)
+- i want a [cardiologist](specialization)
+- I want to channel a [cardiologist](specialization)
+- i want to channel a [cardiologist](specialization)
+- I need to channel a [cardiologist](specialization)
+- i need to channel a [cardiologist](specialization)
+- I need a doctor specialiazed as a [cardiologist](specialization)
+- i need a doctor specialiazed as a [cardiologist](specialization)
+- i want a doctor specialiazed as a [cardiologist](specialization)
+- I want a doctor specialiazed as a [cardiologist](specialization)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization)
+- I live in [Colombo](location)
+- i live in [Colombo](location)
+- I am in [Colombo](location)
+- i am in [Colombo](location)
+- My zip code is [00100](location)
+- my zip code is [00100](location)
+- [Colomo](location)
+- I need a [cardiologist](specialization) from [Colombo](location)
+- i need a [cardiologist](specialization) from [Colombo](location)
+- I want a [cardiologist](specialization) from [Colombo](location)
+- i want a [cardiologist](specialization) from [Colombo](location)
+- I need a [cardiologist](specialization) in [Colombo](location)
+- i need a [cardiologist](specialization) in [Colombo](location)
+- I want a [cardiologist](specialization) in [Colombo](location)
+- i want a [cardiologist](specialization) in [Colombo](location)
+- I want to channel a [cardiologist](specialization) from [Colombo](location)
+- i want to channel a [cardiologist](specialization) from [Colombo](location)
+- I need to channel a [cardiologist](specialization) from [Colombo](location)
+- i need to channel a [cardiologist](specialization) from [Colombo](location)
+- I want to channel a [cardiologist](specialization) in [Colombo](location)
+- i want to channel a [cardiologist](specialization) in [Colombo](location)
+- I need to channel a [cardiologist](specialization) in [Colombo](location)
+- i need to channel a [cardiologist](specialization) in [Colombo](location)
+- I need a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- i need a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- i want a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- I want a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization) from [Colombo](location)
+- I need a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- i need a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- i want a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- I want a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization) in [Colombo](location)
+- I need a [cardiologist](specialization) and my zip code is [00100](location)
+- i need a [cardiologist](specialization) and my zip code is [00100](location)
+- I want a [cardiologist](specialization) and my zip code is [00100](location)
+- i want a [cardiologist](specialization) and my zip code is [00100](location)
+- I need a [cardiologist](specialization) and my zip code is [00100](location)
+- i need a [cardiologist](specialization) and my zip code is [00100](location)
+- I want a [cardiologist](specialization) and my zip code is [00100](location)
+- i want a [cardiologist](specialization) and my zip code is [00100](location)
+- I want to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- i want to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- I need to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- i need to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- I want to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- i want to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- I need to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- i need to channel a [cardiologist](specialization) and my zip code is [00100](location)
+- I need a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i need a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i want a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I want a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I need a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i need a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i want a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I want a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I want to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i want to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- I need to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+- i need to channel a doctor specialiazed as a [cardiologist](specialization) and my zip code is [00100](location)
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- tnq
+- tq
+- ty
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## regex:location
+- [0-9]{5}
