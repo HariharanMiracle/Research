@@ -16,93 +16,18 @@ E-Channeling is a major part in the health care sector which is used by large nu
 
 
 # Individual Research Question
-
-# Speech To Text - IT17106184 - Weerathunga W.A.H.
-
-Speech To Text Conversion in the Domain Of e-channeling
-How to convert
-- e-channeling appointment related voice to text ?
-- user’s sickness and disease related voice data to text ?
-- Medical recommendation request voice data to text?
-
-All of these should be done with a very minimum WER
  
 # Rasa NLU - IT17044400 - Hariharan Vasudevan
-
 - Process of receiving the request from the speech to text model, recognizing the right most API function and transferring the request to the back-end.
 - What is the most accurate and faster method of analyzing the text and transferring the request to the back-end API?
 - Using Natural Language Understanding model to extract the contents. Then using a model to pick up the most accurate back-end API. 
 
-# Deep Neural Network - IT17106016 - Lokugamage G.N.
-
-- How to create a fast an accurate API response to the given e-channeling use case ?
-- How to get accurate datasets relavent for the e-channeling domain?
-- How to create Neural Netowrks models that give correct outputs through APIs for the
- following scenarios
-
-    - Doctor Recommendation
-    - Specialization Recommendation
-    - Provide Doctor Details
-    - Provide Hospital Details
-    - Provide Immediate medical instructions for any kind of situations
-    - Provide Health Tips
-
-# Text To Speech - IT17115308 - Yahampath A.D.N.H.
-
-Text To Speech Conversion of the Domain of e-channeling
-
-- How to store recevied output data from the Neural Netowrk ? 
-- How to generate relavent natural language data to the recieved user input ? 
-- How to get final result in voice which is same as the human speech ? 
-- How to create real time conversation output which is in the domain of e-channeling
-
-
-
 # Individual Objectives
-
-
-IT17106184 - Weerathunga W.A.H.
-
-Using PocketSphinx
-
-- Collection of audio datasets
-- Preprocessing of the dataset
-- Corpus creation
-- Create necessary files including acoustic model, dictionary and the language model adapted from the PocketSphinx 
-- Create acoustic feature files
-- Create language model
-- Create dictionary model
-- Create acoustic model
-- Implement in Android Studio
-
-If Deep Learning Approach Used
-
-- Get an implemented Deep Learning model like DeepSpeech or Wavenet
-- Audio Data Processing
-- Develop a Corpus that is domain specific to e-channeling
-- Train the model with multiple GPUs
-
-
-
 IT17044400 - Hariharan Vasudevan
 
 - Understanding the converted text input from voice to text converter.
 - Making suitable replies and calling the relevant API functions by considering the extracted features
 - Handling the dialog flow management using a well gathered set of data to train the dialog flow model
-
-IT17106016 - Lokugamage G.N.
-
-- Collect custom data set
-- Train the deep neural network
-- Evaluate accuracy and performance
-- Optimize the accuracy and performance
-
-IT17115308 - Yahampath A.D.N.H.
-
-- Create a custom text to speech model.
-- Read the text which is given from the DNLP backend and generate the natural language according to that
-- Create very relevant reply dialog for given user scenario
-- Pass the generate natural language data into the text to speech model and convert the text into very accurate speech dialog
 #
 #
 #
@@ -296,3 +221,28 @@ Refer to echanneling-service
 Refer to sql_db
 Refer to Chat-comparisons
 ##############################################################################################################################
+
+########################################## Fifteenth commit ##########################################
+Task completed
+* Chatbot adjustments
+## 26/12/2020 GIT LAB Pushing date
+## 26/12/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-11
+##############################################################################################################################
+
+########################################## Sixteenth commit ##########################################
+Task completed
+* Chatbot integration with other parts
+## 26/12/2020 GIT LAB Pushing date
+## 27/12/2020 Actual completion of tasks
+Refer to Rasa-Chatbot-12
+##############################################################################################################################
+
+########################################## Seventeenth commit ##########################################
+Task completed
+* Clean code
+## 08/01/2021 GIT LAB Pushing date
+## 08/01/2021 Actual completion of tasks
+Refer to Rasa-Chatbot-13
+##############################################################################################################################
+Last version is very stable
